@@ -1,9 +1,8 @@
 import express, { Express, Request, Response } from 'express';
-import router from './routes/users';
 
 const app: Express = express();
 const port = 3000;
-const userRouter = router;
+const userRouter = require('./routes/users');
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Here\'s our ShowJet server!');

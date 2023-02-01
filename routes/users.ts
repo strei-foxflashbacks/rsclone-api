@@ -22,4 +22,6 @@ router
     res.send(`Delete user #${req.params.id}`);
   });
 
-export default router;
+module.exports = router;
+
+// TODO: functionality to handle views by route
