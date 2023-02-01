@@ -1,16 +1,16 @@
 import express, { Express, Request, Response } from 'express';
 
-const router: Express = express();
+const userRouter: Express = express();
 
-router.get('/', (req: Request, res: Response) => {
+userRouter.get('/', (req: Request, res: Response) => {
   res.send('User List');
 });
 
-router.get('/new', (req: Request, res: Response) => {
+userRouter.get('/new', (req: Request, res: Response) => {
   res.send('User new form');
 });
 
-router
+userRouter
   .route('/:id')
   .get((req: Request, res: Response) => {
     res.send(`Get user #${req.params.id}`);
@@ -22,6 +22,6 @@ router
     res.send(`Delete user #${req.params.id}`);
   });
 
-module.exports = router;
+export default userRouter;
 
 // TODO: functionality to handle views by route
