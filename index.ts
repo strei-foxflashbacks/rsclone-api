@@ -1,11 +1,12 @@
-const express = require('express');
-const app = express();
+import express, { Express, Request, Response } from 'express';
+
+const app: Express = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get('/', (req: Request, res: Response) => {
+  res.send('Here\'s our ShowJet server!');
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
