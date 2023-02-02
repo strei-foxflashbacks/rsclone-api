@@ -20,7 +20,11 @@ filmRouter
     res.send(`Delete film #${req.params.id}`);
   });
 filmRouter.param('id', (req: FilmRequest, res: Response, next: NextFunction, id) => {
-  req.film = films[id - 1];
+  if (!films.find(film => film.id === +id)) {
+    res.status(404).send('No such film, sorry');
+  } else {
+    req.film = films[id - 1];
+  }
   next();
 });
 
