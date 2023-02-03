@@ -1,11 +1,17 @@
 import express, { Express, NextFunction, Request, Response } from 'express';
 import films from '../database/films';
+import paginate from '../midlewares/paginate';
 import { FilmRequest } from '../types/FilmRequest';
+import { PaginatedResponse } from '../types/PaginatedResponse';
 
 const filmRouter: Express = express();
 
-filmRouter.get('/', (req: Request, res: Response) => {
-  res.json(films);
+filmRouter.get('/', paginate(films as []), (req: Request, res: PaginatedResponse) => {
+  if (req.query.page && req.query.limit) {
+    res.json(res.paginated);
+  } else {
+    res.json(films);
+  }
 });
 
 filmRouter
