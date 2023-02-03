@@ -9,7 +9,7 @@ const paginate = (model: []) => {
     const startIndex = (Number(page) - 1) * Number(limit);
     const endIndex = Number(page) * Number(limit);
 
-    const paginatedFilms = model.slice(startIndex, endIndex);
+    const paginatedFilms = model.slice(startIndex, endIndex) as [];
 
     res.paginated = paginatedFilms;
     next();
