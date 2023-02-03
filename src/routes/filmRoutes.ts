@@ -5,13 +5,13 @@ import { FilmRequest } from '../types/FilmRequest';
 const filmRouter: Express = express();
 
 filmRouter.get('/', (req: Request, res: Response) => {
-  res.send(films);
+  res.json(films);
 });
 
 filmRouter
   .route('/:id')
   .get((req: FilmRequest, res: Response) => {
-    res.send(req.film);
+    res.json(req.film);
   })
   .put((req: Request, res: Response) => {
     res.send(`Update film #${req.params.id}`);
