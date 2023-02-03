@@ -12,6 +12,10 @@ app.get('/', (req: Request, res: Response) => {
 app.use('/users', userRouter);
 app.use('/films', filmRouter);
 
+app.use((req: Request, res: Response) => {
+  res.status(404).send('No such page, sorry.');
+});
+
 app.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
