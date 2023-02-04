@@ -27,8 +27,15 @@ const films: Film[] = [
     genre: '',
     type: 'serial',
     serial: {
-      season: [1],
-      episode: [1],
+      seasonsQty: 2,
+      seasons: [
+        {
+          episodes: [{ name: 's1ep1', src: '' }, { name: 's1ep2', src: '' }],
+        },
+        {
+          episodes: [{ name: 's2ep1', src: '' }, { name: 's2ep2', src: '' }],
+        },
+      ],
     },
   },
 ];
