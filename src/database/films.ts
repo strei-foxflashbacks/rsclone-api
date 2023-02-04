@@ -4,7 +4,6 @@ const films: Film[] = [
   {
     id: 1,
     name: '',
-    src: '',
     poster: '',
     trailer: '',
     thumbnails: ['', '', ''],
@@ -13,11 +12,11 @@ const films: Film[] = [
     reviews: [''],
     genre: '',
     type: 'film',
+    filmSrc: '',
   },
   {
     id: 2,
     name: '',
-    src: '',
     poster: '',
     trailer: '',
     thumbnails: ['', '', ''],
