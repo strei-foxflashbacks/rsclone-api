@@ -4,6 +4,7 @@ const films: Film[] = [
   {
     id: 1,
     name: '',
+    slogan: '',
     originalName: '',
     poster: '',
     trailer: '',
@@ -27,6 +28,7 @@ const films: Film[] = [
   {
     id: 2,
     name: 'Опочтарение',
+    slogan: 'Вам письмо!',
     originalName: 'Going Postal',
     poster: 'https://i.imgur.com/u0QyCmo.jpg',
     trailer: '',
@@ -39,9 +41,9 @@ const films: Film[] = [
     audio: 'Английский, Русский',
     studio: 'Sky',
     countries: 'Великобритания',
-    actors: [{ personId: 1, role: 'Барабант' }, { personId: 2, role: 'Лорд Витинари' }, { personId: 3, role: 'Мисс Крипслок' }, { personId: 4, role: 'Мокрист фон Губвиг' }, { personId: 5, role: 'Мистер Грыль' }, { personId: 6, role: 'Взяткер Позолот' }, { personId: 7, role: 'Почтальон' }, { personId: 8, role: 'Стэнли' }, { personId: 1, role: 'Ангела Красота Добросерд' }],
-    director: [{ personId: 1, role: 'Jon Jones' }],
-    producers: [{ personId: 1, role: 'Rod Brown' }, { personId: 1, role: 'Vadim Jean' }, { personId: 1, role: 'Sue De Beauvoir' }, { personId: 1, role: 'Sarah Conroy' }],
+    actors: [{ personId: 1, role: 'Барабант' }, { personId: 2, role: 'Лорд Витинари' }, { personId: 3, role: 'Мисс Крипслок' }, { personId: 4, role: 'Мокрист фон Губвиг' }, { personId: 5, role: 'Мистер Грыль' }, { personId: 6, role: 'Взяткер Позолот' }, { personId: 7, role: 'Почтальон' }, { personId: 8, role: 'Стэнли' }, { personId: 9, role: 'Ангела Красота Добросерд' }],
+    director: [{ personId: 10, role: 'Jon Jones' }],
+    producers: [{ personId: 11, role: 'Rod Brown' }, { personId: 12, role: 'Vadim Jean' }, { personId: 13, role: 'Sue De Beauvoir' }, { personId: 14, role: 'Sarah Conroy' }],
     facts: ['Фильм снят по мотивам романа Терри Пратчетта «Опочтарение» (Going Postal, 2004)', 'Не будучи профессиональным актером, Терри Пратчетт испытал некоторые затруднения со своей ролью, которая заключалась в том, чтобы просто пройтись по комнате. По словам самого писателя, ему «понадобилось шесть дублей, чтобы справиться с этой непростой задачей».', 'Почтальон в последней сцене — Терри Пратчетт, автор книги.', 'Термин «опочтарение» (англ. going postal) применяется для обозначения актов массовых убийств, которые совершаются в порыве ярости или в состоянии эмоциональной нестабильности.'],
     wins: 'Телевизионная премия BAFTA: Лучшие визуальные эффекты',
     type: 'serial',
@@ -57,6 +59,7 @@ const films: Film[] = [
   {
     id: 3,
     name: 'Сын',
+    slogan: '',
     originalName: 'The Son',
     poster: '',
     trailer: '',
@@ -89,6 +92,7 @@ const films: Film[] = [
   {
     id: 4,
     name: 'Сын',
+    slogan: '',
     originalName: 'The Son',
     poster: '',
     trailer: '',

@@ -3,6 +3,7 @@ import { Serial } from './Serial';
 
 export type Film = {
   id: number,
+  slogan: string,
   name: string,
   originalName: string,
   poster: string,
