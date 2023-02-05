@@ -4,7 +4,8 @@ import { Serial } from './Serial';
 export type Film = {
   id: number,
   slogan: string,
-  ratings: number[]
+  ratings: number[],
+  age: string,
   name: string,
   originalName: string,
   poster: string,
