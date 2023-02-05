@@ -1,10 +1,11 @@
 export type Person = {
   id: number,
-  img: string,
-  imgMin: string,
+  img: string | null,
+  imgMin: string | null,
   nameRu: string,
   nameEn: string,
   profession: string,
-  birth: string,
+  birth: string | null,
   filmIds: number[],
+  relatedPersons: number[],
 };
