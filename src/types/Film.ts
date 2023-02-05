@@ -1,5 +1,6 @@
 import { Role } from './Role';
 import { Serial } from './Serial';
+import { Trailer } from './Trailer';
 
 export type Film = {
   id: number,
@@ -9,7 +10,7 @@ export type Film = {
   name: string,
   originalName: string,
   poster: string,
-  trailer: string,
+  trailer: Trailer[],
   thumbnails: string[],
   description: string,
   usersRating: number,
