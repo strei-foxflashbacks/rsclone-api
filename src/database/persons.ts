@@ -404,7 +404,7 @@ const persons: Person[] = [
   {
     id: 41,
     img: 'https://pic.showjet.ru/pics/c1a6b39e-3fb4-4139-ae97-d5456ac6007b/10x5/1250.jpg',
-    imgMin: null,
+    imgMin: 'https://pic.showjet.ru/pics/c1a6b39e-3fb4-4139-ae97-d5456ac6007b/10x5/1250.jpg',
     nameRu: 'Индира Варма',
     nameEn: 'Indira Varma',
     profession: 'актриса, продюсер',
