@@ -28,9 +28,9 @@ const films: Film[] = [
     id: 2,
     name: 'Опочтарение',
     originalName: 'Going Postal',
-    poster: '',
+    poster: 'https://i.imgur.com/u0QyCmo.jpg',
     trailer: '',
-    thumbnails: ['', '', ''],
+    thumbnails: ['https://i.imgur.com/imKqvro.jpg', 'https://i.imgur.com/rea5SbN.jpg', 'https://i.imgur.com/583EUaK.jpg', 'https://i.imgur.com/qBnAEFW.jpg', 'https://i.imgur.com/jtAWyJm.jpg', 'https://i.imgur.com/KYKoPyY.jpg'],
     description: 'Добро пожаловать в воображариум Терри Пратчетта! \nМокрист фон Губвиг был гениальным мошенником: подделывал предметы искусства и мастерски обкрадывал людей — настоящий Остап Бендер в мире стимпанка. Однажды Мокриста всё-таки поймали и приговорили к смертной казни, но вместо исполнения приговора предложили сделку: восстановить работу единственного городского почтамта. \nВсё бы хорошо, но писем там скопилось просто тьма, а над самим почтамтом висит страшное проклятье: 4 предшественника Губвига погибли при очень странных обстоятельствах. Вдобавок ко всему у главного героя появляется неприятный конкурент — Взяткер Позолот.',
     rating: 5,
     reviews: [''],
@@ -49,7 +49,7 @@ const films: Film[] = [
       seasonsQty: 1,
       seasons: [
         {
-          episodes: [{ name: 'Эпизод 1', src: '' }, { name: 'Эпизод 2', src: '' }, { name: 'Эпизод 3', src: '' }, { name: 'Эпизод 4', src: '' }],
+          episodes: [{ name: 'Эпизод 1', thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg', src: '' }, { name: 'Эпизод 2', thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg', src: '' }, { name: 'Эпизод 3', thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg', src: '' }, { name: 'Эпизод 4', thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg', src: '' }],
         },
       ],
     },
@@ -78,10 +78,10 @@ const films: Film[] = [
       seasonsQty: 2,
       seasons: [
         {
-          episodes: [{ name: 'Первый сын Техаса', src: '' }, { name: 'Сливовое дерево', src: '' }, { name: 'Вторая империя', src: '' }, { name: 'Песня смерти', src: '' }, { name: 'Никаких пленных', src: '' }, { name: 'Охотник на буйволов', src: '' }, { name: 'Брачные узы', src: '' }, { name: 'Медовая охота', src: '' }, { name: 'Пророчество', src: '' }, { name: 'Скальпы', src: '' }],
+          episodes: [{ name: 'Первый сын Техаса', thumbnail: '', src: '' }, { name: 'Сливовое дерево', thumbnail: '', src: '' }, { name: 'Вторая империя', thumbnail: '', src: '' }, { name: 'Песня смерти', thumbnail: '', src: '' }, { name: 'Никаких пленных', thumbnail: '', src: '' }, { name: 'Охотник на буйволов', thumbnail: '', src: '' }, { name: 'Брачные узы', thumbnail: '', src: '' }, { name: 'Медовая охота', thumbnail: '', src: '' }, { name: 'Пророчество', thumbnail: '', src: '' }, { name: 'Скальпы', thumbnail: '', src: '' }],
         },
         {
-          episodes: [{ name: 'Нумунуу', src: '' }, { name: 'Десять долларов и ощипанный гусь', src: '' }, { name: 'Слепой тигр', src: '' }, { name: 'Оскальпированная собака', src: '' }, { name: 'Горячее масло', src: '' }, { name: 'Голубой свет', src: '' }, { name: 'Кто-то взял лопату', src: '' }, { name: 'Все их обвинительные следы', src: '' }, { name: 'Медведь', src: '' }, { name: 'Легенда', src: '' }],
+          episodes: [{ name: 'Нумунуу', thumbnail: '', src: '' }, { name: 'Десять долларов и ощипанный гусь', thumbnail: '', src: '' }, { name: 'Слепой тигр', thumbnail: '', src: '' }, { name: 'Оскальпированная собака', thumbnail: '', src: '' }, { name: 'Горячее масло', thumbnail: '', src: '' }, { name: 'Голубой свет', thumbnail: '', src: '' }, { name: 'Кто-то взял лопату', thumbnail: '', src: '' }, { name: 'Все их обвинительные следы', thumbnail: '', src: '' }, { name: 'Медведь', thumbnail: '', src: '' }, { name: 'Легенда', thumbnail: '', src: '' }],
         },
       ],
     },
@@ -110,10 +110,10 @@ const films: Film[] = [
       seasonsQty: 2,
       seasons: [
         {
-          episodes: [{ name: 'Первый сын Техаса', src: '' }, { name: 'Сливовое дерево', src: '' }, { name: 'Вторая империя', src: '' }, { name: 'Песня смерти', src: '' }, { name: 'Никаких пленных', src: '' }, { name: 'Охотник на буйволов', src: '' }, { name: 'Брачные узы', src: '' }, { name: 'Медовая охота', src: '' }, { name: 'Пророчество', src: '' }, { name: 'Скальпы', src: '' }],
+          episodes: [{ name: 'Первый сын Техаса', thumbnail: '', src: '' }, { name: 'Сливовое дерево', thumbnail: '', src: '' }, { name: 'Вторая империя', thumbnail: '', src: '' }, { name: 'Песня смерти', thumbnail: '', src: '' }, { name: 'Никаких пленных', thumbnail: '', src: '' }, { name: 'Охотник на буйволов', thumbnail: '', src: '' }, { name: 'Брачные узы', thumbnail: '', src: '' }, { name: 'Медовая охота', thumbnail: '', src: '' }, { name: 'Пророчество', thumbnail: '', src: '' }, { name: 'Скальпы', thumbnail: '', src: '' }],
         },
         {
-          episodes: [{ name: 'Нумунуу', src: '' }, { name: 'Десять долларов и ощипанный гусь', src: '' }, { name: 'Слепой тигр', src: '' }, { name: 'Оскальпированная собака', src: '' }, { name: 'Горячее масло', src: '' }, { name: 'Голубой свет', src: '' }, { name: 'Кто-то взял лопату', src: '' }, { name: 'Все их обвинительные следы', src: '' }, { name: 'Медведь', src: '' }, { name: 'Легенда', src: '' }],
+          episodes: [{ name: 'Нумунуу', thumbnail: '', src: '' }, { name: 'Десять долларов и ощипанный гусь', thumbnail: '', src: '' }, { name: 'Слепой тигр', thumbnail: '', src: '' }, { name: 'Оскальпированная собака', thumbnail: '', src: '' }, { name: 'Горячее масло', thumbnail: '', src: '' }, { name: 'Голубой свет', thumbnail: '', src: '' }, { name: 'Кто-то взял лопату', thumbnail: '', src: '' }, { name: 'Все их обвинительные следы', thumbnail: '', src: '' }, { name: 'Медведь', thumbnail: '', src: '' }, { name: 'Легенда', thumbnail: '', src: '' }],
         },
       ],
     },
