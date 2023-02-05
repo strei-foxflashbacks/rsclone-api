@@ -7,5 +7,4 @@ export type Person = {
   profession: string,
   birth: string | null,
   filmIds: number[],
-  relatedPersons: number[],
 };
