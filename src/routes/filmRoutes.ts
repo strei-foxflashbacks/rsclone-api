@@ -32,11 +32,12 @@ filmRouter
   .delete((req: Request, res: Response) => {
     res.send(`Delete film #${req.params.id}`);
   });
-filmRouter.param('id', (req: FilmRequest, res: Response, next: NextFunction, id) => {
+filmRouter.param('id', (req: FilmRequest, res: Response, next: NextFunction, id: number) => {
   if (!films.find(film => film.id === +id)) {
     res.status(404).send('No such film, sorry');
   } else {
     req.film = films[id - 1];
+    // console.log(films.map(film => film.id));
   }
   next();
 });
