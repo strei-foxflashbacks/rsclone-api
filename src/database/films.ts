@@ -55,6 +55,7 @@ const films: Film[] = [
       seasonsQty: 1,
       seasons: [
         {
+          seasonInfo: 'Сезон 1 / 2010',
           episodes: [{ name: 'Эпизод 1', thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg', src: '' }, { name: 'Эпизод 2', thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg', src: '' }, { name: 'Эпизод 3', thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg', src: '' }, { name: 'Эпизод 4', thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg', src: '' }],
         },
       ],
@@ -69,7 +70,7 @@ const films: Film[] = [
     originalName: 'The Son',
     poster: 'https://pic.showjet.ru/pics/c5f48991-e55c-44b4-991d-b15ee8f374d5/10x5/1250.jpg',
     trailer: [{ thumbnail: 'https://pic.showjet.ru/pics/a6ba8fe9-96c4-4247-adf1-08a586b41fcd/10x5/550.jpg', src: '' }],
-    thumbnails: ['', '', ''],
+    thumbnails: ['https://pic.showjet.ru/pics/f57d97e2-4343-4190-ba62-e7b35f21aa13/10x7/1000.jpg', 'https://pic.showjet.ru/pics/bd46c3b8-d2ce-4467-b18d-76d820bd136c/10x7/1000.jpg', 'https://pic.showjet.ru/pics/90147cc5-81e0-4920-9525-b1a2859b30dd/10x7/1000.jpg', 'https://pic.showjet.ru/pics/095bf496-1b81-4a55-a7a3-1e01be77bf7f/10x7/1000.jpg', 'https://pic.showjet.ru/pics/6c6a7ceb-e19e-47b3-8fd5-9697e703de36/10x7/1000.jpg', 'https://pic.showjet.ru/pics/51961699-1ce6-4cea-a0d0-3656d908495e/10x7/1000.jpg'],
     description: 'Жестокий и эпический вестерн о становлении Америки, показанном через историю одной семьи. В главной роли — Пирс Броснан. \n1849 год, центральный Техас. Юный Илай Маккалоу попадает в плен к индейцам после того, как те ворвались в дом и безжалостно расправились с его сёстрами и матерью. Неопытный, но смелый парень учится выживать и договариваться с диким племенем. \n1915 год, южный Техас. Параллельно разворачивается история уже взрослого Илая Маккалоу в окружении детей и внуков. Властный и уважаемый глава семьи, он владеет ранчо и пытается отыскать нефть. Теперь вместо индейцев его главными врагами стали мексиканцы, которые вот-вот развяжут войну. Однако сын Илая, Пит, не готов мириться с жестокими методами отца и отпускает одного мексиканца, которого Маккалоу взяли в плен. Это грозит разрушить не только семейные узы, но и всю империю Илая Маккалоу, которую тот строил много лет...',
     usersRating: 5,
     reviews: [''],
@@ -87,10 +88,12 @@ const films: Film[] = [
       seasonsQty: 2,
       seasons: [
         {
-          episodes: [{ name: 'Первый сын Техаса', thumbnail: '', src: '' }, { name: 'Сливовое дерево', thumbnail: '', src: '' }, { name: 'Вторая империя', thumbnail: '', src: '' }, { name: 'Песня смерти', thumbnail: '', src: '' }, { name: 'Никаких пленных', thumbnail: '', src: '' }, { name: 'Охотник на буйволов', thumbnail: '', src: '' }, { name: 'Брачные узы', thumbnail: '', src: '' }, { name: 'Медовая охота', thumbnail: '', src: '' }, { name: 'Пророчество', thumbnail: '', src: '' }, { name: 'Скальпы', thumbnail: '', src: '' }],
+          seasonInfo: 'Сезон 2 / 2019',
+          episodes: [{ name: 'Нумунуу', thumbnail: '', src: '' }, { name: 'Десять долларов и ощипанный гусь', thumbnail: '', src: '' }, { name: 'Слепой тигр', thumbnail: '', src: '' }, { name: 'Оскальпированная собака', thumbnail: '', src: '' }, { name: 'Горячее масло', thumbnail: '', src: '' }, { name: 'Голубой свет', thumbnail: '', src: '' }, { name: 'Кто-то взял лопату', thumbnail: '', src: '' }, { name: 'Все их обвинительные следы', thumbnail: '', src: '' }, { name: 'Медведь', thumbnail: '', src: '' }, { name: 'Легенда', thumbnail: '', src: '' }],
         },
         {
-          episodes: [{ name: 'Нумунуу', thumbnail: '', src: '' }, { name: 'Десять долларов и ощипанный гусь', thumbnail: '', src: '' }, { name: 'Слепой тигр', thumbnail: '', src: '' }, { name: 'Оскальпированная собака', thumbnail: '', src: '' }, { name: 'Горячее масло', thumbnail: '', src: '' }, { name: 'Голубой свет', thumbnail: '', src: '' }, { name: 'Кто-то взял лопату', thumbnail: '', src: '' }, { name: 'Все их обвинительные следы', thumbnail: '', src: '' }, { name: 'Медведь', thumbnail: '', src: '' }, { name: 'Легенда', thumbnail: '', src: '' }],
+          seasonInfo: 'Сезон 1 / 2017',
+          episodes: [{ name: 'Первый сын Техаса', thumbnail: '', src: '' }, { name: 'Сливовое дерево', thumbnail: '', src: '' }, { name: 'Вторая империя', thumbnail: '', src: '' }, { name: 'Песня смерти', thumbnail: '', src: '' }, { name: 'Никаких пленных', thumbnail: '', src: '' }, { name: 'Охотник на буйволов', thumbnail: '', src: '' }, { name: 'Брачные узы', thumbnail: '', src: '' }, { name: 'Медовая охота', thumbnail: '', src: '' }, { name: 'Пророчество', thumbnail: '', src: '' }, { name: 'Скальпы', thumbnail: '', src: '' }],
         },
       ],
     },
@@ -104,7 +107,7 @@ const films: Film[] = [
     originalName: 'The Son',
     poster: '',
     trailer: [{ thumbnail: '', src: '' }],
-    thumbnails: ['', '', ''],
+    thumbnails: ['', '', '', '', '', ''],
     description: 'Жестокий и эпический вестерн о становлении Америки, показанном через историю одной семьи. В главной роли — Пирс Броснан. \n1849 год, центральный Техас. Юный Илай Маккалоу попадает в плен к индейцам после того, как те ворвались в дом и безжалостно расправились с его сёстрами и матерью. Неопытный, но смелый парень учится выживать и договариваться с диким племенем. \n1915 год, южный Техас. Параллельно разворачивается история уже взрослого Илая Маккалоу в окружении детей и внуков. Властный и уважаемый глава семьи, он владеет ранчо и пытается отыскать нефть. Теперь вместо индейцев его главными врагами стали мексиканцы, которые вот-вот развяжут войну. Однако сын Илая, Пит, не готов мириться с жестокими методами отца и отпускает одного мексиканца, которого Маккалоу взяли в плен. Это грозит разрушить не только семейные узы, но и всю империю Илая Маккалоу, которую тот строил много лет...',
     usersRating: 5,
     reviews: [''],
@@ -122,9 +125,11 @@ const films: Film[] = [
       seasonsQty: 2,
       seasons: [
         {
+          seasonInfo: '',
           episodes: [{ name: 'Первый сын Техаса', thumbnail: '', src: '' }, { name: 'Сливовое дерево', thumbnail: '', src: '' }, { name: 'Вторая империя', thumbnail: '', src: '' }, { name: 'Песня смерти', thumbnail: '', src: '' }, { name: 'Никаких пленных', thumbnail: '', src: '' }, { name: 'Охотник на буйволов', thumbnail: '', src: '' }, { name: 'Брачные узы', thumbnail: '', src: '' }, { name: 'Медовая охота', thumbnail: '', src: '' }, { name: 'Пророчество', thumbnail: '', src: '' }, { name: 'Скальпы', thumbnail: '', src: '' }],
         },
         {
+          seasonInfo: '',
           episodes: [{ name: 'Нумунуу', thumbnail: '', src: '' }, { name: 'Десять долларов и ощипанный гусь', thumbnail: '', src: '' }, { name: 'Слепой тигр', thumbnail: '', src: '' }, { name: 'Оскальпированная собака', thumbnail: '', src: '' }, { name: 'Горячее масло', thumbnail: '', src: '' }, { name: 'Голубой свет', thumbnail: '', src: '' }, { name: 'Кто-то взял лопату', thumbnail: '', src: '' }, { name: 'Все их обвинительные следы', thumbnail: '', src: '' }, { name: 'Медведь', thumbnail: '', src: '' }, { name: 'Легенда', thumbnail: '', src: '' }],
         },
       ],
