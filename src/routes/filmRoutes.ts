@@ -33,5 +33,4 @@ filmRouter.param('id', (req: FilmRequest, res: Response, next: NextFunction, id)
   }
   next();
 });
-
 export default filmRouter;

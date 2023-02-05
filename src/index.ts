@@ -1,5 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import filmRouter from './routes/filmRoutes';
+import personsRouter from './routes/personsRoutes';
 import userRouter from './routes/usersRoutes';
 
 const app: Express = express();
@@ -11,6 +12,7 @@ app.get('/', (req: Request, res: Response) => {
 
 app.use('/users', userRouter);
 app.use('/films', filmRouter);
+app.use('/persons', personsRouter);
 
 app.use((req: Request, res: Response) => {
   res.status(404).send('No such page, sorry.');
