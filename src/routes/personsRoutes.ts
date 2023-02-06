@@ -19,11 +19,11 @@ personsRouter
   .get((req: PersonRequest, res: Response) => {
     res.json(req.person);
   });
-personsRouter.param('id', (req: PersonRequest, res: Response, next: NextFunction, id) => {
+personsRouter.param('id', (req: PersonRequest, res: Response, next: NextFunction, id: number) => {
   if (!persons.find(person => person.id === +id)) {
     res.status(404).send('No such person, sorry');
   } else {
-    req.person = persons[id];
+    req.person = persons.find(person => person.id === Number(id));
   }
   next();
 });
