@@ -23,7 +23,7 @@ personsRouter.param('id', (req: PersonRequest, res: Response, next: NextFunction
   if (!persons.find(person => person.id === +id)) {
     res.status(404).send('No such person, sorry');
   } else {
-    req.person = persons[id - 1];
+    req.person = persons[id];
   }
   next();
 });
