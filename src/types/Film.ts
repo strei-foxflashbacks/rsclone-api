@@ -26,7 +26,7 @@ export type Film = {
   facts: string[],
   type: 'film' | 'serial',
   studio?: string[],
-  wins?: string,
+  wins?: string[],
   serial?: Serial
   filmSrc?: string,
 };
