@@ -12,11 +12,11 @@ Api for Rolling Scopes School task "RSClone".
 ## Usage
 
 - **Films**
-    - [Get Films](https://github.com/strei-foxflashbacks/rsclone-api#get-films)
-    - [Get Film](https://github.com/strei-foxflashbacks/rsclone-api#get-film)
+    - [Get Films](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-films)
+    - [Get Film](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-film)
 - **Persons**
-    - [Get Persons](https://github.com/strei-foxflashbacks/rsclone-api#get-persons)
-    - [Get Person](https://github.com/strei-foxflashbacks/rsclone-api#get-person)
+    - [Get Persons](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-persons)
+    - [Get Person](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-person)
 
 **Get Films**
 ----
