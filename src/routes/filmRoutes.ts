@@ -8,6 +8,7 @@ const filmRouter: Express = express();
 
 filmRouter.get('/', paginate(films as []), (req: Request, res: PaginatedResponse) => {
   if (req.query.page && req.query.limit) {
+    res.set('X-Total-Count', `${res.totalCount}`);
     res.json(res.paginated);
   } else {
     res.json(films);
