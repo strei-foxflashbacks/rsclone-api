@@ -58,7 +58,7 @@ Returns json data from films database.
 
   * **Code:** 200 OK <br />
     **Content:**
-    ```json
+    ```JavaScript
       [
         {
           id: 1,
@@ -172,7 +172,7 @@ Returns json data about specified film.
 
       * **Code:** 200 OK <br />
         **Content:**
-        ```json
+        ```JavaScript
           {
             seasonInfo: 'Сезон 1 / 2010',
             episodes: [
@@ -198,7 +198,7 @@ Returns json data about specified film.
 
   * **Code:** 200 OK <br />
     **Content:**
-    ```json
+    ```JavaScript
       {
         id: 1,
         name: 'Континенталь',
@@ -309,7 +309,7 @@ Returns json data from persons database.
 
 * **Code:** 200 OK <br />
   **Content:**
-  ```json
+  ```JavaScript
     [
       {
         id: 1,
@@ -369,7 +369,7 @@ Returns json data about specified person.
 
 * **Code:** 200 OK <br />
   **Content:**
-  ```json
+  ```JavaScript
     {
       id: 1,
       img: 'https://pic.showjet.ru/pics/932b74ff-6252-43f7-85e4-b85aea3e7102/10x5/1250.jpg',
