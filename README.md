@@ -326,9 +326,6 @@ Returns json data from persons database.
 
 * **Error Response:**
 
-* **Code:** 404 NOT FOUND <br />
-  **Content:**
-
     None
 
 </details>
