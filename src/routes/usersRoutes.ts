@@ -6,7 +6,7 @@ userRouter.get('/', (req: Request, res: Response) => {
   res.send('User List');
 });
 
-userRouter.get('/new', (req: Request, res: Response) => {
+userRouter.get('/register', (req: Request, res: Response) => {
   res.send('User new form');
 });
 
