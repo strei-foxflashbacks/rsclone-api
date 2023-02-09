@@ -24,13 +24,7 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [
-          "test.{ts,tsx}",
-          "test-*.{ts,tsx}",
-          "**/*{.,_}{test,spec}.{ts,tsx}",
-          "**/jest.config.ts",
-          "**/jest.setup.ts"
-        ],
+        "devDependencies": true,
         "optionalDependencies": false
       }
     ]
