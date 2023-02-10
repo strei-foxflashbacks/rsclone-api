@@ -17,6 +17,12 @@ Api for Rolling Scopes School task "RSClone".
 - **Persons**
     - [Get Persons](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-persons)
     - [Get Person](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-person)
+- **Users**
+    - [Get Registration Page](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-registration-page)
+    - [Register User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#register-user)
+    - [Get Login Page](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-login-page)
+    - [Login User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#login-user)
+    - [Logout User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#login-user)
 
 **Get Films**
 ----
@@ -437,5 +443,101 @@ Returns json data about specified person.
     **Content:**
 
     No such person, sorry
+
+</details>
+
+**Get Registration Page**
+----
+Routes to registration page.
+
+<details>
+
+* **URL**
+
+    /users/register
+
+* **Method:**
+
+    `GET`
+
+* **Headers:**
+
+    None
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    None
+
+* **Success Response:**
+
+  **Content (If user is not logged):**
+
+    `Registration page`
+
+  **Content (If user is logged):**
+
+    Redirects to /
+
+* **Error Response:**
+
+    None
+
+</details>
+
+**Register User**
+----
+Registers user to users database.
+
+<details>
+
+* **URL**
+
+    /users/register
+
+* **Method:**
+
+    `POST`
+
+* **Headers:**
+
+    `'Content-Type': 'application/json'`
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    ```JavaScript
+      {
+        name: string,
+        email: string,
+        password: string
+      }
+    ```
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content:**
+
+    Redirects to /users/login
+
+
+* **Error Response:**
+
+    /users/register
 
 </details>
