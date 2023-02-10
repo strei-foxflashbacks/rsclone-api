@@ -34,7 +34,7 @@ userRouter.get('/', authCheck, (req: UserRequest, res: Response) => {
 userRouter
   .route('/login')
   .get(notAuthCheck, (req: Request, res: Response) => {
-    res.send('Login Page');
+    res.send({ page: 'Login Page', message: req.flash('error')[0] });
   })
   .post(notAuthCheck, passport.authenticate('local', {
     successRedirect: '/users',
