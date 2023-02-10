@@ -5,6 +5,7 @@ import users from '../database/users';
 import passport from 'passport';
 import initPassport from '../midlewares/passport-config';
 import flash from 'express-flash';
+import connectFlash from 'connect-flash';
 import session from 'express-session';
 import authCheck from '../midlewares/authCheck';
 import notAuthCheck from '../midlewares/notAuthCheck';
@@ -18,6 +19,7 @@ const userRouter: Express = express();
 userRouter.use(express.json());
 userRouter.use(urlencoded({ extended: false }));
 userRouter.use(flash());
+userRouter.use(connectFlash());
 userRouter.use(session({
   secret: process.env.SESSION_SECRET as string,
   resave: false,

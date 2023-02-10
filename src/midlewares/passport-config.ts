@@ -10,15 +10,18 @@ const LocalStrategy = passportLocal.Strategy;
 const initPassport = (passport: PassportStatic, getUserByEmail: UserEmailVerify, getUserById: UserIdVerify) => {
   passport.use(new LocalStrategy({ usernameField: 'email' }, async (email, password, done) => {
     const user = getUserByEmail(email);
-    if (user === null) done(null, false, { message: 'Incorrect email' });
-    try {
-      if (await bcrypt.compare(password, user!.password)) {
-        done(null, user);
-      } else {
-        return done(null, false, { message: 'Incorrect password' });
+    if (user === undefined) {
+      done(null, false, { message: 'Incorrect email' });
+    } else {
+      try {
+        if (await bcrypt.compare(password, user!.password)) {
+          done(null, user);
+        } else {
+          return done(null, false, { message: 'Incorrect password' });
+        }
+      } catch (err) {
+        return done(err as Error);
       }
-    } catch (err) {
-      return done(err as Error);
     }
   }));
   passport.serializeUser((user: UserDefined, done) => done(null, user.id));
