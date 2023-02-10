@@ -69,7 +69,7 @@ Returns json data from films database.
           originalName: 'El Continental',
           poster: 'https://pic.showjet.ru/pics/57358089-7937-4e8c-b650-7a44bac85d5f/10x5/1250.jpg',
           summary: '1 сезон / криминал, драма, 2018',
-          trailer: [{ thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg', src: '' }],
+          trailer: [{ thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg', src: '', subtitles: [{ src: '', srcLang: '', label: '' }] }],
           thumbnails: [
             'https://pic.showjet.ru/pics/d8a6a58d-1e25-4310-ba96-09883523b26e/10x7/1000.jpg',
             'https://pic.showjet.ru/pics/65bb0ba9-8922-4a8e-a333-1e03ff2d01c9/10x7/1000.jpg',
@@ -112,10 +112,30 @@ Returns json data from films database.
               {
                 seasonInfo: 'Сезон 1 / 2010',
                 episodes: [
-                  { name: 'Эпизод 1', thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg', src: '' },
-                  { name: 'Эпизод 2', thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg', src: '' },
-                  { name: 'Эпизод 3', thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg', src: '' },
-                  { name: 'Эпизод 4', thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg', src: '' },
+                  {
+                    name: 'Эпизод 1',
+                    thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
+                    src: '',
+                    subtitles: [{ src: '', srcLang: '', label: '' }]
+                  },
+                  {
+                    name: 'Эпизод 2',
+                    thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
+                    src: '',
+                    subtitles: [{ src: '', srcLang: '', label: '' }]
+                  },
+                  {
+                    name: 'Эпизод 3',
+                    thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
+                    src: '',
+                    subtitles: [{ src: '', srcLang: '', label: '' }]
+                  },
+                  {
+                    name: 'Эпизод 4',
+                    thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
+                    src: '',
+                    subtitles: [{ src: '', srcLang: '', label: '' }]
+                  },
                 ],
               },
             ],
@@ -176,10 +196,26 @@ Returns json data about specified film.
           {
             seasonInfo: 'Сезон 1 / 2010',
             episodes: [
-              { name: 'Эпизод 1', thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg', src: '' },
-              { name: 'Эпизод 2', thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg', src: '' },
-              { name: 'Эпизод 3', thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg', src: '' },
-              { name: 'Эпизод 4', thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg', src: '' },
+              {
+                name: 'Эпизод 1',
+                thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
+                src: ''
+              },
+              {
+                name: 'Эпизод 2',
+                thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
+                src: ''
+              },
+              {
+                name: 'Эпизод 3',
+                thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
+                src: ''
+              },
+              {
+                name: 'Эпизод 4',
+                thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
+                src: ''
+              },
             ]
           }
         ```
@@ -208,7 +244,7 @@ Returns json data about specified film.
         originalName: 'El Continental',
         poster: 'https://pic.showjet.ru/pics/57358089-7937-4e8c-b650-7a44bac85d5f/10x5/1250.jpg',
         summary: '1 сезон / криминал, драма, 2018',
-        trailer: [{ thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg', src: '' }],
+        trailer: [{ thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg', src: '', subtitles: [{ src: '', srcLang: '', label: '' }] }],
         thumbnails: [
           'https://pic.showjet.ru/pics/d8a6a58d-1e25-4310-ba96-09883523b26e/10x7/1000.jpg',
           'https://pic.showjet.ru/pics/65bb0ba9-8922-4a8e-a333-1e03ff2d01c9/10x7/1000.jpg',
@@ -251,10 +287,26 @@ Returns json data about specified film.
             {
               seasonInfo: 'Сезон 1 / 2010',
               episodes: [
-                { name: 'Эпизод 1', thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg', src: '' },
-                { name: 'Эпизод 2', thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg', src: '' },
-                { name: 'Эпизод 3', thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg', src: '' },
-                { name: 'Эпизод 4', thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg', src: '' },
+                {
+                  name: 'Эпизод 1',
+                  thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
+                  src: ''
+                },
+                {
+                  name: 'Эпизод 2',
+                  thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
+                  src: ''
+                },
+                {
+                  name: 'Эпизод 3',
+                  thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
+                  src: ''
+                },
+                {
+                  name: 'Эпизод 4',
+                  thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
+                  src: ''
+                },
               ],
             },
           ],
