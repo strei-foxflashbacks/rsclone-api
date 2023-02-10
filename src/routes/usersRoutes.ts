@@ -22,6 +22,7 @@ userRouter.use(flash());
 userRouter.use(connectFlash());
 userRouter.use(session({
   secret: process.env.SESSION_SECRET as string,
+  cookie: { maxAge: 60000 },
   resave: false,
   saveUninitialized: false,
 }));
