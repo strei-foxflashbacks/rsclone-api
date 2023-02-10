@@ -3,7 +3,7 @@ import passportLocal from 'passport-local';
 import bcrypt from 'bcrypt';
 import { UserEmailVerify } from '../types/UserEmailVerify';
 import { UserIdVerify } from '../types/UserIdVerify';
-import { UserId } from '../types/UserId';
+import { UserDefined } from '../types/UserDefined';
 
 const LocalStrategy = passportLocal.Strategy;
 
@@ -21,7 +21,7 @@ const initPassport = (passport: PassportStatic, getUserByEmail: UserEmailVerify,
       return done(err as Error);
     }
   }));
-  passport.serializeUser((user: UserId, done) => done(null, user.id));
+  passport.serializeUser((user: UserDefined, done) => done(null, user.id));
   passport.deserializeUser((id: string, done) => {
     return done(null, getUserById(id));
   });

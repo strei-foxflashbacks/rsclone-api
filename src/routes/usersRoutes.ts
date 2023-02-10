@@ -8,6 +8,7 @@ import flash from 'express-flash';
 import session from 'express-session';
 import authCheck from '../midlewares/authCheck';
 import notAuthCheck from '../midlewares/notAuthCheck';
+import { UserRequest } from '../types/UserRequest';
 
 initPassport(
   passport,
@@ -25,8 +26,8 @@ userRouter.use(session({
 userRouter.use(passport.initialize());
 userRouter.use(passport.session());
 
-userRouter.get('/', authCheck, (req: Request, res: Response) => {
-  res.send('User Page');
+userRouter.get('/', authCheck, (req: UserRequest, res: Response) => {
+  res.send(`Hello, ${req.user!.name}`);
 });
 
 userRouter
