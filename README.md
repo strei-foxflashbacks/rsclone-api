@@ -535,9 +535,108 @@ Registers user to users database.
 
     Redirects to /users/login
 
+* **Error Response:**
+
+    Redirects to /users/register
+
+</details>
+
+**Get Login Page**
+----
+Routes to login page.
+
+<details>
+
+* **URL**
+
+    /users/login
+
+* **Method:**
+
+    `Get`
+
+* **Headers:**
+
+    None
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    None
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content (If user is not logged):**
+
+    `Login Page`
+    **Content (If user is logged):**
+
+    Redirects to /
+
 
 * **Error Response:**
 
-    /users/register
+    None
+
+</details>
+
+**Login User**
+----
+Checks user in database and logs if success.
+
+<details>
+
+* **URL**
+
+    /users/login
+
+* **Method:**
+
+    `POST`
+
+* **Headers:**
+
+    `'Content-Type': 'application/json'`
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    ```JavaScript
+      {
+        email: string,
+        password: string
+      }
+    ```
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content (If user is not logged):**
+
+    Redirects to /users
+
+    **Content (If user is logged):**
+
+    Redirects to /
+
+
+* **Error Response:**
+
+    Redirects to /users/login
 
 </details>
