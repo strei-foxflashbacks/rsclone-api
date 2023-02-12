@@ -22,7 +22,7 @@ Api for Rolling Scopes School task "RSClone".
     - [Register User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#register-user)
     - [Get Login Page](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-login-page)
     - [Login User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#login-user)
-    - [Logout User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#login-user)
+    - [Logout User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#logout-user)
 
 **Get Films**
 ----
@@ -553,7 +553,7 @@ Routes to login page.
 
 * **Method:**
 
-    `Get`
+    `GET`
 
 * **Headers:**
 
@@ -576,7 +576,11 @@ Routes to login page.
   * **Code:** 200 OK <br />
     **Content (If user is not logged):**
 
-    `Login Page`
+    ```JavaScript
+      {
+        page: 'Login Page'
+      }
+    ```
     **Content (If user is logged):**
 
     Redirects to /
@@ -637,6 +641,66 @@ Checks user in database and logs if success.
 
 * **Error Response:**
 
+  * **Code:** 401 Unauthorized <br />
+    **Content (if wrong login or not registered):**
+
+    ```JavaScript
+      {
+        page: 'Login Page',
+        message: 'Incorrect email'
+      }
+    ```
+    **Content (if wrong password):**
+
+    ```JavaScript
+      {
+        page: 'Login Page',
+        message: 'Incorrect password'
+      }
+    ```
     Redirects to /users/login
+
+</details>
+
+**Logout User**
+----
+Checks user in database and logs if success.
+
+<details>
+
+* **URL**
+
+    /users/logout
+
+* **Method:**
+
+    `POST`
+
+* **Headers:**
+
+    None
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    None
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content:**
+
+    Redirects to /
+
+* **Error Response:**
+
+    None
 
 </details>
