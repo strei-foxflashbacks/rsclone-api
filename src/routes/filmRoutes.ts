@@ -38,7 +38,6 @@ filmRouter.param('id', (req: FilmRequest, res: Response, next: NextFunction, id:
     res.status(404).send('No such film, sorry');
   } else {
     req.film = films[id - 1];
-    // console.log(films.map(film => film.id));
   }
   next();
 });
