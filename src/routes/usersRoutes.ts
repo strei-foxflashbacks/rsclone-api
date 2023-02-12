@@ -12,8 +12,8 @@ import { UserRequest } from '../types/UserRequest';
 
 initPassport(
   passport,
-  (email: string) => users.find(user => user.email === email),
-  (id: string) => users.find(user => user.id === id));
+  (email: string) => users.find(user => user.email === email)!,
+  (id: string) => users.find(user => user.id === id)!);
 const userRouter: Express = express();
 userRouter.use(express.json());
 userRouter.use(urlencoded({ extended: false }));
