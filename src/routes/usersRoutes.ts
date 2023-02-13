@@ -55,6 +55,15 @@ userRouter
         name: req.body.name,
         email: req.body.email,
         password: hashedPassword,
+        birthday: '',
+        userpic: '',
+        sex: null,
+        phone: '',
+        collection: {
+          playlist: [],
+          films: [],
+          persons: [],
+        },
       });
       res.redirect('/users/login');
     } catch {
