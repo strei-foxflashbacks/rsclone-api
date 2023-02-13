@@ -1,4 +1,6 @@
+import { Season } from './Season';
+
 export type Serial = {
-  season: number[],
-  episode: number[]
+  seasonsQty: number,
+  seasons: Season[]
 };
