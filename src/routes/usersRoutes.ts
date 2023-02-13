@@ -27,9 +27,18 @@ userRouter.use(session({
 userRouter.use(passport.initialize());
 userRouter.use(passport.session());
 
-userRouter.get('/', authCheck, (req: UserRequest, res: Response) => {
-  res.send(req.user);
-});
+userRouter
+  .route('/')
+  .get(authCheck, (req: UserRequest, res: Response) => {
+    res.send(req.user);
+  })
+  .patch(authCheck, (req: UserRequest, res: Response) => {
+    const userToUpdate = users.find(user => user === req.user);
+    const index = users.indexOf(userToUpdate!);
+    const updatedUser = Object.assign(userToUpdate!, req.body);
+    users[index] = updatedUser;
+    res.send(updatedUser);
+  });
 
 userRouter
   .route('/login')
