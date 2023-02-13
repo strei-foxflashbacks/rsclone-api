@@ -23,6 +23,7 @@ Api for Rolling Scopes School task "RSClone".
     - [Get Login Page](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-login-page)
     - [Login User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#login-user)
     - [Logout User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#logout-user)
+    - [Get User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-user)
 
 **Get Films**
 ----
@@ -698,6 +699,158 @@ Logout user.
     **Content:**
 
     Redirects to /
+
+* **Error Response:**
+
+    None
+
+</details>
+
+**Get User**
+----
+Get authorized user.
+
+<details>
+
+* **URL**
+
+    /users
+
+* **Method:**
+
+    `GET`
+
+* **Headers:**
+
+    None
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    None
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content (if authorized):**
+
+    ```JavaScript
+      {
+        id: string,
+        name: string,
+        email: string,
+        password: string,
+        userpic: string,
+        birthday: string,
+        sex: null | 'Мужчина' | 'Женщина',
+        phone: string,
+        collection: {
+          playlist: [
+            {
+              name: string,
+              thumbnail: string,
+              src: string,
+              subtitles: [
+                {
+                  src: string,
+                  srcLang: string,
+                  label: string,
+                },
+              ],
+            },
+          ],
+          films: number[],
+          persons: number[],
+        },
+      }
+    ```
+
+    **Content (if not authorized):**
+
+    Redirects to /
+
+* **Error Response:**
+
+    None
+
+</details>
+
+**Update User**
+----
+Update authorized user.
+
+<details>
+
+* **URL**
+
+    /users
+
+* **Method:**
+
+    `PATCH`
+
+* **Headers:**
+
+    `'Content-Type': 'application/json'`
+
+*  **URL Params**
+
+    None
+
+* **Query Params**
+
+    None
+
+* **Data Params**
+
+    ```JavaScript
+      {
+        // Data to update
+      }
+    ```
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content:**
+
+    ```JavaScript
+      {
+        id: string,
+        name: string,
+        email: string,
+        password: string,
+        userpic: string,
+        birthday: string,
+        sex: null | 'Мужчина' | 'Женщина',
+        phone: string,
+        collection: {
+          playlist: [
+            {
+              name: string,
+              thumbnail: string,
+              src: string,
+              subtitles: [
+                {
+                  src: string,
+                  srcLang: string,
+                  label: string,
+                },
+              ],
+            },
+          ],
+          films: number[],
+          persons: number[],
+        },
+      }
+    ```
 
 * **Error Response:**
 
