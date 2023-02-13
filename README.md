@@ -664,7 +664,7 @@ Checks user in database and logs if success.
 
 **Logout User**
 ----
-Checks user in database and logs if success.
+Logout user.
 
 <details>
 
