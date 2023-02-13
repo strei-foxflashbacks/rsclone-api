@@ -28,7 +28,7 @@ userRouter.use(passport.initialize());
 userRouter.use(passport.session());
 
 userRouter.get('/', authCheck, (req: UserRequest, res: Response) => {
-  res.send(`Hello, ${req.user!.name}`);
+  res.send(req.user);
 });
 
 userRouter
