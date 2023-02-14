@@ -2,9 +2,15 @@ import express, { Express, Request, Response } from 'express';
 import filmRouter from './routes/filmRoutes';
 import personsRouter from './routes/personsRoutes';
 import userRouter from './routes/usersRoutes';
+import cors from 'cors';
 
 const app: Express = express();
 const port = 3000;
+
+app.use(cors({
+  origin: ['http://localhost:300'],
+  credentials: true,
+}));
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Here\'s our ShowJet server!');
