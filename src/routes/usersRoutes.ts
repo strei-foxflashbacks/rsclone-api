@@ -6,6 +6,7 @@ import passport from 'passport';
 import initPassport from '../midlewares/passport-config';
 import flash from 'express-flash';
 import session from 'express-session';
+import cookieParser from 'cookie-parser';
 import authCheck from '../midlewares/authCheck';
 import notAuthCheck from '../midlewares/notAuthCheck';
 import { UserRequest } from '../types/UserRequest';
@@ -18,9 +19,13 @@ const userRouter: Express = express();
 userRouter.use(express.json());
 userRouter.use(urlencoded({ extended: false }));
 userRouter.use(flash());
+userRouter.use(cookieParser('secret'));
 userRouter.use(session({
-  secret: process.env.SESSION_SECRET as string,
-  cookie: { maxAge: 60000 },
+  secret: 'secret',
+  cookie: {
+    httpOnly: true,
+    maxAge: 60000,
+  },
   resave: false,
   saveUninitialized: false,
 }));
@@ -49,7 +54,9 @@ userRouter
     successRedirect: '/users',
     failureRedirect: '/users/login',
     failureFlash: true,
-  }));
+  }), (req: Request, res: Response) => {
+    req.headers['Content-Type'] = 'application/json';
+  });
 
 userRouter
   .route('/register')
@@ -57,6 +64,7 @@ userRouter
     res.send('Registration page');
   })
   .post(notAuthCheck, async (req: Request, res: Response) => {
+    req.headers['Content-Type'] = 'application/json';
     try {
       const hashedPassword = await bcrypt.hash(req.body.password, 10);
       users.push({

@@ -7,7 +7,9 @@ import cors from 'cors';
 const app: Express = express();
 const port = 3000;
 
-app.use(cors());
+app.use(cors({
+  credentials: true,
+}));
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Here\'s our ShowJet server!');
