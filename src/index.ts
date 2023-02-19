@@ -8,7 +8,9 @@ const app: Express = express();
 const port = 3000;
 
 app.use(cors({
+  origin: 'http://localhost:8080',
   credentials: true,
+  // preflightContinue: true,
 }));
 
 app.get('/', (req: Request, res: Response) => {

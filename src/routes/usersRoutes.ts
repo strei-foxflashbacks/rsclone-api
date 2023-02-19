@@ -1,11 +1,12 @@
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
-import express, { Express, NextFunction, Request, Response, urlencoded } from 'express';
+import express, { Express, NextFunction, Request, Response } from 'express';
 import bcrypt from 'bcrypt';
 import users from '../database/users';
 import passport from 'passport';
 import initPassport from '../midlewares/passport-config';
 import flash from 'express-flash';
 import session from 'express-session';
+import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 import authCheck from '../midlewares/authCheck';
 import notAuthCheck from '../midlewares/notAuthCheck';
@@ -17,18 +18,18 @@ initPassport(
   (id: string) => users.find(user => user.id === id)!);
 const userRouter: Express = express();
 userRouter.use(express.json());
-userRouter.use(urlencoded({ extended: false }));
 userRouter.use(flash());
 userRouter.use(cookieParser('secret'));
 userRouter.use(session({
   secret: 'secret',
   cookie: {
-    httpOnly: true,
+    httpOnly: false,
     maxAge: 60000,
   },
   resave: false,
   saveUninitialized: false,
 }));
+userRouter.use(bodyParser.urlencoded({ extended: false }));
 userRouter.use(passport.initialize());
 userRouter.use(passport.session());
 
@@ -54,7 +55,7 @@ userRouter
     successRedirect: '/users',
     failureRedirect: '/users/login',
     failureFlash: true,
-  }), (req: Request, res: Response) => {
+  }), (req: Request) => {
     req.headers['Content-Type'] = 'application/json';
   });
 
