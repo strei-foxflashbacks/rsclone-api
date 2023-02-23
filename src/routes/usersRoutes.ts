@@ -54,23 +54,28 @@ userRouter
   })
   .post(async (req: Request, res: Response) => {
     try {
-      const hashedPassword = await bcrypt.hash(req.body.password, 10);
-      users.push({
-        id: Date.now().toString(),
-        name: req.body.name,
-        email: req.body.email,
-        password: hashedPassword,
-        birthday: '',
-        userpic: '',
-        sex: null,
-        phone: '',
-        collection: {
-          playlist: [],
-          films: [],
-          persons: [],
-        },
-      });
-      res.redirect('/users/login');
+      const existingUser = users.find(userToFind => userToFind.email === req.body.email);
+      if (!existingUser) {
+        const hashedPassword = await bcrypt.hash(req.body.password, 10);
+        users.push({
+          id: Date.now().toString(),
+          name: req.body.name,
+          email: req.body.email,
+          password: hashedPassword,
+          birthday: '',
+          userpic: '',
+          sex: null,
+          phone: '',
+          collection: {
+            playlist: [],
+            films: [],
+            persons: [],
+          },
+        });
+        res.redirect('/users/login');
+      } else {
+        res.send('User already exists');
+      }
     } catch {
       res.redirect('/users/register');
     }
