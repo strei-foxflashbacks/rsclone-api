@@ -479,13 +479,9 @@ Routes to registration page.
 
 * **Success Response:**
 
-  **Content (If user is not logged):**
+  **Content:**
 
     `Registration page`
-
-  **Content (If user is logged):**
-
-    Redirects to /
 
 * **Error Response:**
 
@@ -575,17 +571,9 @@ Routes to login page.
 * **Success Response:**
 
   * **Code:** 200 OK <br />
-    **Content (If user is not logged):**
+    **Content:**
 
-    ```JavaScript
-      {
-        page: 'Login Page'
-      }
-    ```
-    **Content (If user is logged):**
-
-    Redirects to /
-
+      `Login page`
 
 * **Error Response:**
 
@@ -595,7 +583,7 @@ Routes to login page.
 
 **Login User**
 ----
-Checks user in database and logs if success.
+Checks user in database, logs and sends verification token if success.
 
 <details>
 
@@ -633,76 +621,20 @@ Checks user in database and logs if success.
   * **Code:** 200 OK <br />
     **Content (If user is not logged):**
 
-    Redirects to /users
-
-    **Content (If user is logged):**
-
-    Redirects to /
-
+    ```JavaScript
+      token: string
+    ```
 
 * **Error Response:**
 
   * **Code:** 401 Unauthorized <br />
     **Content (if wrong login or not registered):**
 
-    ```JavaScript
-      {
-        page: 'Login Page',
-        message: 'Incorrect email'
-      }
-    ```
+    User not found
+
     **Content (if wrong password):**
 
-    ```JavaScript
-      {
-        page: 'Login Page',
-        message: 'Incorrect password'
-      }
-    ```
-    Redirects to /users/login
-
-</details>
-
-**Logout User**
-----
-Logout user.
-
-<details>
-
-* **URL**
-
-    /users/logout
-
-* **Method:**
-
-    `POST`
-
-* **Headers:**
-
-    None
-
-*  **URL Params**
-
-    None
-
-* **Query Params**
-
-    None
-
-* **Data Params**
-
-    None
-
-* **Success Response:**
-
-  * **Code:** 200 OK <br />
-    **Content:**
-
-    Redirects to /
-
-* **Error Response:**
-
-    None
+    Wrong password
 
 </details>
 
@@ -722,7 +654,8 @@ Get authorized user.
 
 * **Headers:**
 
-    None
+    `'Content-Type': 'application/json'`,
+    `'Authorization': 'Bearer <your token>'`
 
 *  **URL Params**
 
@@ -739,7 +672,7 @@ Get authorized user.
 * **Success Response:**
 
   * **Code:** 200 OK <br />
-    **Content (if authorized):**
+    **Content:**
 
     ```JavaScript
       {
@@ -772,11 +705,10 @@ Get authorized user.
       }
     ```
 
-    **Content (if not authorized):**
-
-    Redirects to /
-
 * **Error Response:**
+
+  * **Code:** 401 Unauthorized <br />
+    **Content:**
 
     None
 
@@ -798,7 +730,8 @@ Update authorized user.
 
 * **Headers:**
 
-    `'Content-Type': 'application/json'`
+    `'Content-Type': 'application/json'`,
+    `'Authorization': 'Bearer <your token>'`
 
 *  **URL Params**
 
@@ -853,6 +786,9 @@ Update authorized user.
     ```
 
 * **Error Response:**
+
+  * **Code:** 401 Unauthorized <br />
+    **Content:**
 
     None
 
