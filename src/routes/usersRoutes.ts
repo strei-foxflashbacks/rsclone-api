@@ -1,5 +1,4 @@
-require('dotenv').config();
-import express, { Express, NextFunction, Request, Response } from 'express';
+import express, { Express, Request, Response } from 'express';
 import bcrypt from 'bcrypt';
 import users from '../database/users';
 import passport from 'passport';
@@ -76,11 +75,4 @@ userRouter
       res.redirect('/users/register');
     }
   });
-
-userRouter.post('/logout', (req: Request, res: Response, next: NextFunction) => {
-  req.logOut((err) => {
-    if (err) { return next(); }
-    res.redirect('/');
-  });
-});
 export default userRouter;
