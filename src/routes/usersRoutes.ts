@@ -1,38 +1,25 @@
-if (process.env.NODE_ENV !== 'production') require('dotenv').config();
-import express, { Express, NextFunction, Request, Response, urlencoded } from 'express';
+import express, { Express, Request, Response } from 'express';
 import bcrypt from 'bcrypt';
 import users from '../database/users';
 import passport from 'passport';
-import initPassport from '../midlewares/passport-config';
 import flash from 'express-flash';
-import session from 'express-session';
-import authCheck from '../midlewares/authCheck';
-import notAuthCheck from '../midlewares/notAuthCheck';
 import { UserRequest } from '../types/UserRequest';
+import initJWT from '../midlewares/jwtConfig';
+import jwt from 'jsonwebtoken';
 
-initPassport(
-  passport,
-  (email: string) => users.find(user => user.email === email)!,
-  (id: string) => users.find(user => user.id === id)!);
 const userRouter: Express = express();
 userRouter.use(express.json());
-userRouter.use(urlencoded({ extended: false }));
+initJWT(passport, (email: string) => users.find(user => user.email === email)!);
 userRouter.use(flash());
-userRouter.use(session({
-  secret: process.env.SESSION_SECRET as string,
-  cookie: { maxAge: 60000 },
-  resave: false,
-  saveUninitialized: false,
-}));
+userRouter.use(express.urlencoded({ extended: false }));
 userRouter.use(passport.initialize());
-userRouter.use(passport.session());
 
 userRouter
   .route('/')
-  .get(authCheck, (req: UserRequest, res: Response) => {
+  .get(passport.authenticate('jwt', { session: false }), (req: UserRequest, res: Response) => {
     res.send(req.user);
   })
-  .patch(authCheck, (req: UserRequest, res: Response) => {
+  .patch(passport.authenticate('jwt', { session: false }), (req: UserRequest, res: Response) => {
     const userToUpdate = users.find(user => user === req.user);
     const index = users.indexOf(userToUpdate!);
     const updatedUser = Object.assign(userToUpdate!, req.body);
@@ -42,48 +29,55 @@ userRouter
 
 userRouter
   .route('/login')
-  .get(notAuthCheck, (req: Request, res: Response) => {
-    res.send({ page: 'Login Page', message: req.flash('error')[0] });
+  .get((req: Request, res: Response) => {
+    res.send('Login page');
   })
-  .post(notAuthCheck, passport.authenticate('local', {
-    successRedirect: '/users',
-    failureRedirect: '/users/login',
-    failureFlash: true,
-  }));
+  .post(async (req: Request, res: Response) => {
+    const { email, password } = req.body;
+    const user = users.find(userToFind => userToFind.email === email);
+    if (!user) {
+      res.send('User not found').status(401);
+    } else {
+      if (await bcrypt.compare(password, user?.password as string)) {
+        const token = jwt.sign(user!, 'secret', { expiresIn: '1h' });
+        res.json(token);
+      } else {
+        res.send('Wrong password').status(401);
+      }
+    }
+  });
 
 userRouter
   .route('/register')
-  .get(notAuthCheck, (req: Request, res: Response) => {
+  .get((req: Request, res: Response) => {
     res.send('Registration page');
   })
-  .post(notAuthCheck, async (req: Request, res: Response) => {
+  .post(async (req: Request, res: Response) => {
     try {
-      const hashedPassword = await bcrypt.hash(req.body.password, 10);
-      users.push({
-        id: Date.now().toString(),
-        name: req.body.name,
-        email: req.body.email,
-        password: hashedPassword,
-        birthday: '',
-        userpic: '',
-        sex: null,
-        phone: '',
-        collection: {
-          playlist: [],
-          films: [],
-          persons: [],
-        },
-      });
-      res.redirect('/users/login');
+      const existingUser = users.find(userToFind => userToFind.email === req.body.email);
+      if (!existingUser) {
+        const hashedPassword = await bcrypt.hash(req.body.password, 10);
+        users.push({
+          id: Date.now().toString(),
+          name: req.body.name,
+          email: req.body.email,
+          password: hashedPassword,
+          birthday: '',
+          userpic: '',
+          sex: null,
+          phone: '',
+          collection: {
+            playlist: [],
+            films: [],
+            persons: [],
+          },
+        });
+        res.redirect('/users/login');
+      } else {
+        res.send('User already exists');
+      }
     } catch {
       res.redirect('/users/register');
     }
   });
-
-userRouter.post('/logout', (req: Request, res: Response, next: NextFunction) => {
-  req.logOut((err) => {
-    if (err) { return next(); }
-    res.redirect('/');
-  });
-});
 export default userRouter;
