@@ -528,9 +528,13 @@ Registers user to users database.
 * **Success Response:**
 
   * **Code:** 200 OK <br />
-    **Content:**
+    **Content (if user not yet exists):**
 
     Redirects to /users/login
+
+    **Content (if user already exists):**
+
+    User already exists
 
 * **Error Response:**
 
