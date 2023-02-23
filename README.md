@@ -22,7 +22,6 @@ Api for Rolling Scopes School task "RSClone".
     - [Register User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#register-user)
     - [Get Login Page](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-login-page)
     - [Login User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#login-user)
-    - [Logout User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#logout-user)
     - [Get User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#get-user)
     - [Update User](https://github.com/strei-foxflashbacks/rsclone-api/tree/develop#update-user)
 
