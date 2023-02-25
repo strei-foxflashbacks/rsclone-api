@@ -36,13 +36,13 @@ userRouter
     const { email, password } = req.body;
     const user = users.find(userToFind => userToFind.email === email);
     if (!user) {
-      res.send('User not found').status(401);
+      res.status(401).send('User not found');
     } else {
       if (await bcrypt.compare(password, user?.password as string)) {
         const token = jwt.sign(user!, 'secret', { expiresIn: '1h' });
         res.json(token);
       } else {
-        res.send('Wrong password').status(401);
+        res.status(401).send('Wrong password');
       }
     }
   });
@@ -74,10 +74,10 @@ userRouter
         });
         res.redirect('/users/login');
       } else {
-        res.send('User already exists');
+        res.status(400).send('User already exists');
       }
     } catch {
       res.redirect('/users/register');
-    }
+    } 
   });
 export default userRouter;
