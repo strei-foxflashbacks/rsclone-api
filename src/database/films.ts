@@ -13,20 +13,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg',
-        src: '1.mp4',
+        src: '../assets/1.mp4',
         subtitles: [
           {
-            src: '1-sp.vtt',
+            src: '../assets/1-sp.vtt',
             srcLang: 'sp',
             label: 'Spanish',
           },
           {
-            src: '1-ru.vtt',
+            src: '../assets/1-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/d8a6a58d-1e25-4310-ba96-09883523b26e/10x7/1000.jpg',
@@ -71,15 +71,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -88,15 +88,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -105,15 +105,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -122,15 +122,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -153,20 +153,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/4440a521-5663-4d4e-8326-02bf205b665f/10x5/550.jpg',
-        src: '2.mp4',
+        src: '../assets/2.mp4',
         subtitles: [
           {
-            src: '2-en.vtt',
+            src: '../assets/2-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '2-ru.vtt',
+            src: '../assets/2-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://i.imgur.com/imKqvro.jpg',
@@ -220,15 +220,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -237,15 +237,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -254,15 +254,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -271,15 +271,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -302,20 +302,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/a6ba8fe9-96c4-4247-adf1-08a586b41fcd/10x5/550.jpg',
-        src: '3.mp4',
+        src: '../assets/3.mp4',
         subtitles: [
           {
-            src: '3-en.vtt',
+            src: '../assets/3-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '3-ru.vtt',
+            src: '../assets/3-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: ['https://pic.showjet.ru/pics/f57d97e2-4343-4190-ba62-e7b35f21aa13/10x7/1000.jpg', 'https://pic.showjet.ru/pics/bd46c3b8-d2ce-4467-b18d-76d820bd136c/10x7/1000.jpg', 'https://pic.showjet.ru/pics/90147cc5-81e0-4920-9525-b1a2859b30dd/10x7/1000.jpg', 'https://pic.showjet.ru/pics/095bf496-1b81-4a55-a7a3-1e01be77bf7f/10x7/1000.jpg', 'https://pic.showjet.ru/pics/6c6a7ceb-e19e-47b3-8fd5-9697e703de36/10x7/1000.jpg', 'https://pic.showjet.ru/pics/51961699-1ce6-4cea-a0d0-3656d908495e/10x7/1000.jpg'],
     description: 'Жестокий и эпический вестерн о становлении Америки, показанном через историю одной семьи. В главной роли — Пирс Броснан. \n1849 год, центральный Техас. Юный Илай Маккалоу попадает в плен к индейцам после того, как те ворвались в дом и безжалостно расправились с его сёстрами и матерью. Неопытный, но смелый парень учится выживать и договариваться с диким племенем. \n1915 год, южный Техас. Параллельно разворачивается история уже взрослого Илая Маккалоу в окружении детей и внуков. Властный и уважаемый глава семьи, он владеет ранчо и пытается отыскать нефть. Теперь вместо индейцев его главными врагами стали мексиканцы, которые вот-вот развяжут войну. Однако сын Илая, Пит, не готов мириться с жестокими методами отца и отпускает одного мексиканца, которого Маккалоу взяли в плен. Это грозит разрушить не только семейные узы, но и всю империю Илая Маккалоу, которую тот строил много лет...',
@@ -358,15 +358,15 @@ const films: Film[] = [
             {
               name: 'Нумунуу',
               thumbnail: 'https://pic.showjet.ru/pics/4b29fa99-d5d6-4a0b-8961-c303c8dfd4dc/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -375,15 +375,15 @@ const films: Film[] = [
             {
               name: 'Десять долларов и ощипанный гусь',
               thumbnail: 'https://pic.showjet.ru/pics/4db1a856-346f-4169-bfe3-0ef37a4e3a96/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -392,15 +392,15 @@ const films: Film[] = [
             {
               name: 'Слепой тигр',
               thumbnail: 'https://pic.showjet.ru/pics/f6a0943c-1338-492d-aa09-9003f246f5d5/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -409,15 +409,15 @@ const films: Film[] = [
             {
               name: 'Оскальпированная собака',
               thumbnail: 'https://pic.showjet.ru/pics/e5293d71-6402-402d-aeb1-e56e8fb2f434/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -426,15 +426,15 @@ const films: Film[] = [
             {
               name: 'Горячее масло',
               thumbnail: 'https://pic.showjet.ru/pics/8bef34f2-b1e8-425b-9485-ae55a67666cc/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -443,15 +443,15 @@ const films: Film[] = [
             {
               name: 'Голубой свет',
               thumbnail: 'https://pic.showjet.ru/pics/32cefeef-a8f2-44c4-8edc-636bdd20ee90/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -460,15 +460,15 @@ const films: Film[] = [
             {
               name: 'Кто-то взял лопату',
               thumbnail: 'https://pic.showjet.ru/pics/ed8c9aa6-23ec-47fb-825d-924c6971618a/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -477,15 +477,15 @@ const films: Film[] = [
             {
               name: 'Все их обвинительные следы',
               thumbnail: 'https://pic.showjet.ru/pics/d18d3370-c8a7-43f4-b7da-b224d8047045/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -494,15 +494,15 @@ const films: Film[] = [
             {
               name: 'Медведь',
               thumbnail: 'https://pic.showjet.ru/pics/2828829f-7c9f-4f1f-9fd4-f1525519604a/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -511,15 +511,15 @@ const films: Film[] = [
             {
               name: 'Легенда',
               thumbnail: 'https://pic.showjet.ru/pics/6939ca8f-e8ba-464c-9c9a-cd0c24257542/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -533,15 +533,15 @@ const films: Film[] = [
             {
               name: 'Первый сын Техаса',
               thumbnail: 'https://pic.showjet.ru/pics/a00f09db-c2aa-4e01-a641-65480ad71301/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -550,15 +550,15 @@ const films: Film[] = [
             {
               name: 'Сливовое дерево',
               thumbnail: 'https://pic.showjet.ru/pics/b7aba7f2-6805-46b3-867c-c3ebc1fe6c7c/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -567,15 +567,15 @@ const films: Film[] = [
             {
               name: 'Вторая империя',
               thumbnail: 'https://pic.showjet.ru/pics/5ff4588a-7cc2-4ddc-86da-e95799ac46a5/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -584,15 +584,15 @@ const films: Film[] = [
             {
               name: 'Песня смерти',
               thumbnail: 'https://pic.showjet.ru/pics/8bf58de5-79e9-4262-a1aa-4a88b879706c/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -601,15 +601,15 @@ const films: Film[] = [
             {
               name: 'Никаких пленных',
               thumbnail: 'https://pic.showjet.ru/pics/4f17fb20-62d6-4746-a205-4ab51ce98401/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -618,15 +618,15 @@ const films: Film[] = [
             {
               name: 'Охотник на буйволов',
               thumbnail: 'https://pic.showjet.ru/pics/99af408e-6c9a-46f2-9809-01d5d6bd7786/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -635,15 +635,15 @@ const films: Film[] = [
             {
               name: 'Брачные узы',
               thumbnail: 'https://pic.showjet.ru/pics/0e377e3f-380d-4c92-bcff-89fe04257c55/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -652,15 +652,15 @@ const films: Film[] = [
             {
               name: 'Медовая охота',
               thumbnail: 'https://pic.showjet.ru/pics/cf2ec742-6a20-4212-8c64-dd40fa605610/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -669,15 +669,15 @@ const films: Film[] = [
             {
               name: 'Пророчество',
               thumbnail: 'https://pic.showjet.ru/pics/497eedd0-2953-4600-b348-0fcb4049bdc2/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -686,15 +686,15 @@ const films: Film[] = [
             {
               name: 'Скальпы',
               thumbnail: 'https://pic.showjet.ru/pics/6f2f017b-5fab-48fd-b93d-7a0fa7a8f171/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -717,20 +717,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/121a0a7b-a56b-4ed5-aa7c-25a4c26f62a3/10x5/550.jpg',
-        src: '4.mp4',
+        src: '../assets/4.mp4',
         subtitles: [
           {
-            src: '4-en.vtt',
+            src: '../assets/4-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '4-ru.vtt',
+            src: '../assets/4-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/278d3a15-9dd9-4fa2-a499-c9cc25796322/10x7/1000.jpg',
@@ -788,15 +788,15 @@ const films: Film[] = [
             {
               name: 'Индиец в английском костюме',
               thumbnail: 'https://pic.showjet.ru/pics/bc109e10-ea6f-40ab-b1b7-047fba82d2ac/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -805,15 +805,15 @@ const films: Film[] = [
             {
               name: 'Чёрная змея',
               thumbnail: 'https://pic.showjet.ru/pics/b50f9d21-a89f-46fc-b555-a6f991c41d40/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -822,15 +822,15 @@ const films: Film[] = [
             {
               name: 'Белые боги',
               thumbnail: 'https://pic.showjet.ru/pics/6393e2c2-a0f1-4176-a2be-744b611a791f/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -839,15 +839,15 @@ const films: Film[] = [
             {
               name: 'Пустое кресло',
               thumbnail: 'https://pic.showjet.ru/pics/b9193410-fe21-45b7-ab4c-388cb901aaa0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -856,15 +856,15 @@ const films: Film[] = [
             {
               name: 'Игра в прятки',
               thumbnail: 'https://pic.showjet.ru/pics/917274f0-e40e-4185-a364-b4b7ce0dceea/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -873,15 +873,15 @@ const films: Film[] = [
             {
               name: 'Подарок для короля',
               thumbnail: 'https://pic.showjet.ru/pics/43356090-ccce-4d1b-8b70-ec92dd68eff2/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -890,15 +890,15 @@ const films: Film[] = [
             {
               name: 'Предложение',
               thumbnail: 'https://pic.showjet.ru/pics/0596b831-2c25-4776-9eca-05bb8c7ac74e/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -907,15 +907,15 @@ const films: Film[] = [
             {
               name: 'День рождения',
               thumbnail: 'https://pic.showjet.ru/pics/6dd94ed7-bef4-46b3-8fa5-9bc8672ffb58/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -924,15 +924,15 @@ const films: Film[] = [
             {
               name: 'Победитель забирает всё',
               thumbnail: 'https://pic.showjet.ru/pics/5bed2232-bfc6-46de-9961-591741cbf549/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -941,15 +941,15 @@ const films: Film[] = [
             {
               name: 'Отъезд из дома',
               thumbnail: 'https://pic.showjet.ru/pics/59687dc9-9431-4d07-8d68-56fcff9e80a7/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -963,15 +963,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/285a7f76-5d82-48f4-bc87-78670f464015/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -980,15 +980,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/e021d111-96ee-4bae-b651-d4c9b41b555a/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -997,15 +997,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/6623d27d-8d09-4858-aac5-5b20a2067569/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1014,15 +1014,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/875d952a-e889-4cee-9491-23836ca85576/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1031,15 +1031,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/fe79ab1c-ff16-44ca-90f9-c52091558fd0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1048,15 +1048,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/4a9e003f-1f71-46f7-8158-b1acac914233/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1065,15 +1065,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 7',
               thumbnail: 'https://pic.showjet.ru/pics/ee9138a6-c10e-414c-9d63-6928b152a5e0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1082,15 +1082,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 8',
               thumbnail: 'https://pic.showjet.ru/pics/2b8a943b-e609-410d-b931-f2e49779cca8/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1099,15 +1099,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 9',
               thumbnail: 'https://pic.showjet.ru/pics/a8e808c2-2fc9-4039-ae5e-de1b833b2514/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1116,15 +1116,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 10',
               thumbnail: 'https://pic.showjet.ru/pics/02b76b56-d3ce-4378-b681-ef15cb2b24db/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1147,20 +1147,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/adb38dc6-441c-442b-af92-33456eb57f7f/10x5/550.jpg',
-        src: '5.mp4',
+        src: '../assets/5.mp4',
         subtitles: [
           {
-            src: '5-en.vtt',
+            src: '../assets/5-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '5-ru.vtt',
+            src: '../assets/5-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/e0ae03d8-d9df-40ff-a36a-9d62bf590c51/10x7/1000.jpg',
@@ -1209,15 +1209,15 @@ const films: Film[] = [
             {
               name: 'Друид',
               thumbnail: 'https://pic.showjet.ru/pics/360459d2-7868-4ce4-a4f8-05c46e9627e6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1226,15 +1226,15 @@ const films: Film[] = [
             {
               name: 'Дух',
               thumbnail: 'https://pic.showjet.ru/pics/3b7cb649-939d-49eb-afcb-3a2a8c72a843/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1243,15 +1243,15 @@ const films: Film[] = [
             {
               name: 'Грэймарк',
               thumbnail: 'https://pic.showjet.ru/pics/2a53e92d-acf6-41dc-856f-de9a7d32d6d6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1260,15 +1260,15 @@ const films: Film[] = [
             {
               name: 'Обитатель',
               thumbnail: 'https://pic.showjet.ru/pics/4641e4cc-1131-476f-93cb-e830400f6079/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1277,15 +1277,15 @@ const films: Film[] = [
             {
               name: 'Паранор',
               thumbnail: 'https://pic.showjet.ru/pics/45e54d0d-7b9f-4d60-9ae4-caacf1de4171/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1294,15 +1294,15 @@ const films: Film[] = [
             {
               name: 'Алый',
               thumbnail: 'https://pic.showjet.ru/pics/0d5e8203-870d-45e9-baf3-375e13341740/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1311,15 +1311,15 @@ const films: Film[] = [
             {
               name: 'Чародей',
               thumbnail: 'https://pic.showjet.ru/pics/3c6474a9-cb81-4ac4-a325-4f5683534922/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1328,15 +1328,15 @@ const films: Film[] = [
             {
               name: 'Эмберли',
               thumbnail: 'https://pic.showjet.ru/pics/b733396c-16ab-4468-b8d7-0085783bb0a6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1345,15 +1345,15 @@ const films: Film[] = [
             {
               name: 'Уайлдерун',
               thumbnail: 'https://pic.showjet.ru/pics/58f03822-be47-4493-8fb1-8eb6b14d9bb8/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1362,15 +1362,15 @@ const films: Film[] = [
             {
               name: 'Кровь',
               thumbnail: 'https://pic.showjet.ru/pics/168aeb9b-247c-4141-bdef-ac1feb7d4cb1/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1384,15 +1384,15 @@ const films: Film[] = [
             {
               name: 'Избранная: Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/25e8bd73-c497-41cb-9c18-3562c52b1552/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1401,15 +1401,15 @@ const films: Film[] = [
             {
               name: 'Избранная: Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/c3077ef4-48a5-4293-8f92-d07d2402be3d/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1418,15 +1418,15 @@ const films: Film[] = [
             {
               name: 'Фурия',
               thumbnail: 'https://pic.showjet.ru/pics/fc4e239a-0969-44c2-abe0-55d480d16356/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1435,15 +1435,15 @@ const films: Film[] = [
             {
               name: 'Подмена',
               thumbnail: 'https://pic.showjet.ru/pics/f8a9e6ba-eb86-4ec5-ac74-cc73d02c43f7/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1452,15 +1452,15 @@ const films: Film[] = [
             {
               name: 'Жнец',
               thumbnail: 'https://pic.showjet.ru/pics/0d47802d-da71-44fd-8e03-6da42a744b3c/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1469,15 +1469,15 @@ const films: Film[] = [
             {
               name: 'Пайкон',
               thumbnail: 'https://pic.showjet.ru/pics/63ed40ac-b2b6-4eb1-af1b-3a05c8ca22d9/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1486,15 +1486,15 @@ const films: Film[] = [
             {
               name: 'Разлом',
               thumbnail: 'https://pic.showjet.ru/pics/f0f8e6e1-8acb-4181-b1df-11b57b37dfca/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1503,15 +1503,15 @@ const films: Film[] = [
             {
               name: 'Утопия',
               thumbnail: 'https://pic.showjet.ru/pics/c5534b8b-fc9f-4895-96c7-a998e524e492/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1520,15 +1520,15 @@ const films: Film[] = [
             {
               name: 'Убежище',
               thumbnail: 'https://pic.showjet.ru/pics/e8c5a84f-4b56-4a41-a7cd-19c973a0d83c/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1537,15 +1537,15 @@ const films: Film[] = [
             {
               name: 'Элькрис',
               thumbnail: 'https://pic.showjet.ru/pics/4b843bd5-d6e8-44c4-bc6e-d6e3c3cdc4b2/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1568,20 +1568,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/fab57c5e-75a3-4310-a431-f7b576b5cd26/10x5/550.jpg',
-        src: '6.mp4',
+        src: '../assets/6.mp4',
         subtitles: [
           {
-            src: '6-sp.vtt',
+            src: '../assets/6-sp.vtt',
             srcLang: 'sp',
             label: 'Spanish',
           },
           {
-            src: '6-ru.vtt',
+            src: '../assets/6-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/c308d35e-35a1-4408-83b3-69789451002e/10x7/1000.jpg',
@@ -1631,15 +1631,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка комнаты 308',
               thumbnail: 'https://pic.showjet.ru/pics/93d09f2d-7696-499a-b199-953ecf4894f9/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1648,15 +1648,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна капсулы времени. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/f1b9d562-a17e-4a2a-845d-dd27c881c0a6/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1665,15 +1665,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна капсулы времени. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/29dfe795-588d-4968-9b3e-39047d02d821/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1682,15 +1682,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна гостя',
               thumbnail: 'https://pic.showjet.ru/pics/787f7dd5-8730-4e0d-9e75-cd3c5dfd7529/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1699,15 +1699,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна одной женщины',
               thumbnail: 'https://pic.showjet.ru/pics/078a8ccd-2dd5-4c3d-acc6-89724aa8d6f2/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1716,15 +1716,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна невидимого убийцы',
               thumbnail: 'https://pic.showjet.ru/pics/a29bb785-a12c-4ef6-ab1f-79f839784e05/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1733,15 +1733,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна преступления века',
               thumbnail: 'https://pic.showjet.ru/pics/b9cc4b88-996d-4029-a448-7bab02beea11/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1750,15 +1750,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна призрака',
               thumbnail: 'https://pic.showjet.ru/pics/ba4671c0-71ed-441c-8932-0aeb5e809732/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1767,15 +1767,15 @@ const films: Film[] = [
             {
               name: 'Лаура и шпион, который много болтал',
               thumbnail: 'https://pic.showjet.ru/pics/f2c1a40c-0227-450e-9fb6-f318cb63627e/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1784,15 +1784,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна пойманных мышей',
               thumbnail: 'https://pic.showjet.ru/pics/ac2c6427-5383-40c9-b9bc-804a8e0c5a78/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1801,15 +1801,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна ликов истины',
               thumbnail: 'https://pic.showjet.ru/pics/8baefd1f-51c0-4adb-ab58-88ae3556f9e5/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1818,15 +1818,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/14c862ac-2ca3-4832-ad90-cde6baa21627/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1835,15 +1835,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/937aef3f-43c4-4b3f-ac27-ccc7d613b174/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1852,15 +1852,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 3',
               thumbnail: 'https://pic.showjet.ru/pics/937aef3f-43c4-4b3f-ac27-ccc7d613b174/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1874,15 +1874,15 @@ const films: Film[] = [
             {
               name: 'Тайна молчуна',
               thumbnail: 'https://pic.showjet.ru/pics/0f83463c-d300-4588-9321-b93b3bba96c1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1891,15 +1891,15 @@ const films: Film[] = [
             {
               name: 'Тайна клуба',
               thumbnail: 'https://pic.showjet.ru/pics/438c316f-df2c-42d3-8c18-7d709b90b22a/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1908,15 +1908,15 @@ const films: Film[] = [
             {
               name: 'Тайна человека, которого не было',
               thumbnail: 'https://pic.showjet.ru/pics/46a728a5-0e7a-4308-b2ca-22e9c7139e38/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1925,15 +1925,15 @@ const films: Film[] = [
             {
               name: 'Тайна недовольного пациента',
               thumbnail: 'https://pic.showjet.ru/pics/438a6834-2657-4fbc-be57-0f3c6003a25c/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1942,15 +1942,15 @@ const films: Film[] = [
             {
               name: 'Тайна человека, который не хотел умирать',
               thumbnail: 'https://pic.showjet.ru/pics/ef5143b8-7223-45fe-b46e-0273a266f3ea/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1959,15 +1959,15 @@ const films: Film[] = [
             {
               name: 'Тайна восьми мужчин',
               thumbnail: 'https://pic.showjet.ru/pics/16111a03-134f-4c73-ba79-d697cf7e34be/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1976,15 +1976,15 @@ const films: Film[] = [
             {
               name: 'Тайна кричащего свидетеля',
               thumbnail: 'https://pic.showjet.ru/pics/9ec1cfee-6d95-4999-84e1-1269f534ea10/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -1993,15 +1993,15 @@ const films: Film[] = [
             {
               name: 'Тайна необычного трюка',
               thumbnail: 'https://pic.showjet.ru/pics/6995ac7b-5fbf-4bd5-86a2-c4172d6b04a1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2010,15 +2010,15 @@ const films: Film[] = [
             {
               name: 'Тайна преступного аббатства',
               thumbnail: 'https://pic.showjet.ru/pics/17a59cdd-8507-4f9f-923f-36a6e5bbec33/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2027,15 +2027,15 @@ const films: Film[] = [
             {
               name: 'Тайна красной леди',
               thumbnail: 'https://pic.showjet.ru/pics/f0ecb1cf-be3b-4dc2-bdb5-eb4d7506cc8d/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2044,15 +2044,15 @@ const films: Film[] = [
             {
               name: 'Тайна десяти незнакомцев. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/5affa3d5-68c6-4a48-9fb8-919f609ca7cd/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2061,15 +2061,15 @@ const films: Film[] = [
             {
               name: 'Тайна десяти незнакомцев. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/182848c5-62bd-47c1-aaf1-10e8d28444a9/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2083,15 +2083,15 @@ const films: Film[] = [
             {
               name: 'Тайна запечатанной комнаты. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/cff1a7d9-2c46-49c9-97dd-f215a82b0df1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2100,15 +2100,15 @@ const films: Film[] = [
             {
               name: 'Тайна запечатанной комнаты. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/24e77673-eb0a-40bf-a7a1-d3b670c1bd6d/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2117,15 +2117,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального соседа. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/2842bfef-d0b7-4772-997c-4e3a3d00b714/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2134,15 +2134,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального соседа. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/0db050a1-ee55-4f55-992b-bd6f9b1252f2/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2151,15 +2151,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального алиби. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/bc7e30c8-d704-437d-8fcf-3a981581dfaa/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2168,15 +2168,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального алиби. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/503d32b5-7769-425a-95fc-9461a3614272/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2185,15 +2185,15 @@ const films: Film[] = [
             {
               name: 'Тайна места преступления',
               thumbnail: 'https://pic.showjet.ru/pics/8da94e6e-01a7-4b1b-8ed5-a887fd0faf35/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2202,15 +2202,15 @@ const films: Film[] = [
             {
               name: 'Тайна синего попугая. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/e24cc7b0-325e-489a-8779-4336c1ab9332/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2219,15 +2219,15 @@ const films: Film[] = [
             {
               name: 'Тайна синего попугая. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/f7d93d95-17a2-47d0-bb9c-ff2ef9e6b7f3/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2236,15 +2236,15 @@ const films: Film[] = [
             {
               name: 'Тайна найденного трупа',
               thumbnail: 'https://pic.showjet.ru/pics/7a97aa9d-ceac-4e29-915e-36e0455fca50/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2267,20 +2267,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/45586294-928e-4ebf-94aa-466caa626060/10x5/550.jpg',
-        src: '7.mp4',
+        src: '../assets/7.mp4',
         subtitles: [
           {
-            src: '7-en.vtt',
+            src: '../assets/7-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '7-ru.vtt',
+            src: '../assets/7-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/e39ee4f3-f56c-44f3-bc88-10176eeadfe2/10x7/1000.jpg',
@@ -2334,15 +2334,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/b3ce4602-b324-4912-8b3d-c4c6f4c2ae49/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2351,15 +2351,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/371788d1-52ec-42eb-a4f4-b55d3ab6f618/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2368,15 +2368,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/701749f1-f300-4bca-a2ed-d5e81433cceb/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2385,15 +2385,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/ff00806c-75a5-4b56-b73f-1f5df5f324f0/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2402,15 +2402,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/ab8186e0-4e7d-4b82-9022-f284ecce6251/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2419,15 +2419,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/0e697263-140e-4967-9192-0cbd871589dd/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2441,15 +2441,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/fbe6ac2b-3bbf-4ae6-8bd9-6b0c9ebd5446/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2458,15 +2458,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/d9bda9bd-a8ee-4217-adc7-836b6259c879/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2475,15 +2475,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/1fe76f9b-b64a-4226-9670-6f0bc5ca904b/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2492,15 +2492,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/9a6aca44-df21-4eab-b5cf-df9003ebd176/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2509,15 +2509,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/13c7773f-1c4d-4222-a2c6-52a93027008b/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2526,15 +2526,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/18715ea9-7241-4348-b10e-8be6309ed0d5/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2557,20 +2557,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/06f33b2d-e146-49d3-8ada-e082dcd12a7c/10x5/550.jpg',
-        src: '8.mp4',
+        src: '../assets/8.mp4',
         subtitles: [
           {
-            src: '8-en.vtt',
+            src: '../assets/8-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '8-ru.vtt',
+            src: '../assets/8-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/1067a9d4-5274-4e46-a025-72ecc4c11efa/10x7/1000.jpg',
@@ -2616,15 +2616,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/313b8ff2-2d38-44db-82f8-e56b4ed24bb8/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2633,15 +2633,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/952e497f-cbec-4485-a73e-767162eaa4c4/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2650,15 +2650,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/37871517-0a5c-4f51-957d-6f39c448be0e/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2667,15 +2667,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/abb2ba21-0630-4c85-aa5d-7fb2d1294caf/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2698,20 +2698,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/d388f434-a6dd-4c02-a95f-e41f3649fb27/10x5/550.jpg',
-        src: '9.mp4',
+        src: '../assets/9.mp4',
         subtitles: [
           {
-            src: '9-en.vtt',
+            src: '../assets/9-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '9-ru.vtt',
+            src: '../assets/9-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/0327a903-cb0f-4a94-a83d-69e8958107e7/10x7/1000.jpg',
@@ -2755,15 +2755,15 @@ const films: Film[] = [
             {
               name: 'Безнадежные долги. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/b671462c-3943-435a-8e90-ae79a2ed8112/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2772,15 +2772,15 @@ const films: Film[] = [
             {
               name: 'Безнадежные долги. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/95d196c4-49ac-4968-b2ab-8f81f10f7614/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2789,15 +2789,15 @@ const films: Film[] = [
             {
               name: 'Черный прилив. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/1ba14a1b-f3cb-47b8-bdb8-34b19fd9c7c9/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2806,15 +2806,15 @@ const films: Film[] = [
             {
               name: 'Черный прилив. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/d788e49f-a8c6-45c6-87e2-4464610de758/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2823,15 +2823,15 @@ const films: Film[] = [
             {
               name: 'Тупик. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/3a4bd9ce-bb7a-4b89-a150-0fcf002e9821/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2840,15 +2840,15 @@ const films: Film[] = [
             {
               name: 'Тупик. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/d4dd73f4-345b-4496-ae0b-6b483084bde1/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2871,20 +2871,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/dd1bf4c8-251e-4821-86f1-2c6a974f2bc6/10x5/550.jpg',
-        src: '10.mp4',
+        src: '../assets/10.mp4',
         subtitles: [
           {
-            src: '10-en.vtt',
+            src: '../assets/10-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '10-ru.vtt',
+            src: '../assets/10-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/0a1f6aba-b650-422b-9838-d7ed6952b8c9/10x7/1000.jpg',
@@ -2946,15 +2946,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/8a29746a-e279-4e25-bf67-8f50a8dcb501/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2963,15 +2963,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/33d8c25e-a8b3-42b2-af97-d5a8f0536f92/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2980,15 +2980,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fa180cdf-f44f-4d21-99cd-16d47cb2002e/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -2997,15 +2997,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/eb85daa7-22cc-4071-af27-741e2dfaa57c/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3014,15 +3014,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/9fa8aa26-968d-4ecd-a905-0120fc8ff312/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3031,15 +3031,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/1673b773-883b-4bc7-80e2-1897e0ae9a56/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3053,15 +3053,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/e8fde516-06b2-4b0a-98ad-538dc6d7cb96/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3070,15 +3070,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/b958a6c3-6560-4955-a035-797838920393/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3087,15 +3087,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/8c99629f-f98e-4707-9351-6af9af57431e/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3104,15 +3104,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/c4d02fe7-2b88-4691-9b79-8d642eb3d741/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3121,15 +3121,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/eb46a9b4-94a3-40af-bce7-08d1759809e8/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3138,15 +3138,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/3fcbee17-0f28-4e56-af26-afc69f5de79a/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -3169,20 +3169,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzcwY2E2YTItMjFkZS00OTdjLTkyZTQtOTMxYzc3MGYyNmFkXkEyXkFqcGdeQXN3aWZ0dw@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '11.mp4',
+        src: '../assets/11.mp4',
         subtitles: [
           {
-            src: '11-en.vtt',
+            src: '../assets/11-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '11-ru.vtt',
+            src: '../assets/11-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BODIwMTc0NDA4Ml5BMl5BanBnXkFtZTgwNDE3OTEwMjE@._V1_.jpg',
@@ -3235,15 +3235,15 @@ const films: Film[] = [
     film: {
       name: 'Мой сосед Тоторо',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzcwY2E2YTItMjFkZS00OTdjLTkyZTQtOTMxYzc3MGYyNmFkXkEyXkFqcGdeQXN3aWZ0dw@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '11.mp4',
+      src: '../assets/11.mp4',
       subtitles: [
         {
-          src: '11-en.vtt',
+          src: '../assets/11-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '11-ru.vtt',
+          src: '../assets/11-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3262,20 +3262,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/8884a77f204ed671f6612c7920671078/100x64_3',
-        src: '12.mp4',
+        src: '../assets/12.mp4',
         subtitles: [
           {
-            src: '12-en.vtt',
+            src: '../assets/12-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '12-ru.vtt',
+            src: '../assets/12-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTc5MjM4Njg3Nl5BMl5BanBnXkFtZTgwNTk1NDU2NjM@._V1_.jpg',
@@ -3328,15 +3328,15 @@ const films: Film[] = [
     film: {
       name: 'Сияние',
       thumbnail: 'https://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/8884a77f204ed671f6612c7920671078/100x64_3',
-      src: '12.mp4',
+      src: '../assets/12.mp4',
       subtitles: [
         {
-          src: '12-en.vtt',
+          src: '../assets/12-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '12-ru.vtt',
+          src: '../assets/12-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3355,20 +3355,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzMzMDAxZDAtYTBkNy00NjMwLWIyYzctODA1YzE0MzUwMTI4XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '13.mp4',
+        src: '../assets/13.mp4',
         subtitles: [
           {
-            src: '13-en.vtt',
+            src: '../assets/13-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '13-ru.vtt',
+            src: '../assets/13-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BN2ZmNWUzNTQtMDY2OS00YjBmLWI5NTQtMzg5MDk0MzM5OTc2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
@@ -3414,15 +3414,15 @@ const films: Film[] = [
     film: {
       name: 'Хороший, плохой, злой',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzMzMDAxZDAtYTBkNy00NjMwLWIyYzctODA1YzE0MzUwMTI4XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '13.mp4',
+      src: '../assets/13.mp4',
       subtitles: [
         {
-          src: '13-en.vtt',
+          src: '../assets/13-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '13-ru.vtt',
+          src: '../assets/13-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3441,20 +3441,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjE3MjY3MTkzNV5BMl5BanBnXkFtZTgwNTE0NjU3MzI@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-        src: '14.mp4',
+        src: '../assets/14.mp4',
         subtitles: [
           {
-            src: '14-en.vtt',
+            src: '../assets/14-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '14-ru.vtt',
+            src: '../assets/14-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTg3NDIwNzU3MF5BMl5BanBnXkFtZTgwMDQ5MjY2MzI@._V1_.jpg',
@@ -3512,15 +3512,15 @@ const films: Film[] = [
     film: {
       name: 'Бегущий по лезвию 2049',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjE3MjY3MTkzNV5BMl5BanBnXkFtZTgwNTE0NjU3MzI@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-      src: '14.mp4',
+      src: '../assets/14.mp4',
       subtitles: [
         {
-          src: '14-en.vtt',
+          src: '../assets/14-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '14-ru.vtt',
+          src: '../assets/14-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3539,20 +3539,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjM2OTU4MDA1OV5BMl5BanBnXkFtZTgwNzg2MTAyMzE@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '15.mp4',
+        src: '../assets/15.mp4',
         subtitles: [
           {
-            src: '15-en.vtt',
+            src: '../assets/15-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '15-ru.vtt',
+            src: '../assets/15-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTkwODI5ODcxMl5BMl5BanBnXkFtZTcwNjIyNDAxNw@@._V1_.jpg',
@@ -3611,15 +3611,15 @@ const films: Film[] = [
     film: {
       name: 'Девушка с татуировкой дракона',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjM2OTU4MDA1OV5BMl5BanBnXkFtZTgwNzg2MTAyMzE@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '15.mp4',
+      src: '../assets/15.mp4',
       subtitles: [
         {
-          src: '15-en.vtt',
+          src: '../assets/15-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '15-ru.vtt',
+          src: '../assets/15-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3638,20 +3638,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTgxODI4OTU3N15BMl5BanBnXkFtZTgwODgzNDMzMTE@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '16.mp4',
+        src: '../assets/16.mp4',
         subtitles: [
           {
-            src: '16-en.vtt',
+            src: '../assets/16-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '16-ru.vtt',
+            src: '../assets/16-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMjM1MjYzODE4N15BMl5BanBnXkFtZTgwNzU4ODY2OTE@._V1_.jpg',
@@ -3711,15 +3711,15 @@ const films: Film[] = [
     film: {
       name: 'Отель «Гранд Будапешт»',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTgxODI4OTU3N15BMl5BanBnXkFtZTgwODgzNDMzMTE@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '16.mp4',
+      src: '../assets/16.mp4',
       subtitles: [
         {
-          src: '16-en.vtt',
+          src: '../assets/16-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '16-ru.vtt',
+          src: '../assets/16-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3738,20 +3738,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BOTEwYWFjYmItZWJmNi00MGExLWI1MjktYzRiYjJkNzhiMWIxXkEyXkFqcGdeQXNuZXNodQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '17.mp4',
+        src: '../assets/17.mp4',
         subtitles: [
           {
-            src: '17-en.vtt',
+            src: '../assets/17-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '17-ru.vtt',
+            src: '../assets/17-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BOGI4ZjA5YjItNzM3My00Mjk4LWI4NzEtOGFhZWU5Y2Y1YmExXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg',
@@ -3810,15 +3810,15 @@ const films: Film[] = [
     film: {
       name: 'Дюна',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BOTEwYWFjYmItZWJmNi00MGExLWI1MjktYzRiYjJkNzhiMWIxXkEyXkFqcGdeQXNuZXNodQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '17.mp4',
+      src: '../assets/17.mp4',
       subtitles: [
         {
-          src: '17-en.vtt',
+          src: '../assets/17-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '17-ru.vtt',
+          src: '../assets/17-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -3837,20 +3837,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BZGI3ODkzOTUtNzJjNS00ODhkLThkMzMtZjM4NjViZTYxNGY5XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '18.mp4',
+        src: '../assets/18.mp4',
         subtitles: [
           {
-            src: '18-en.vtt',
+            src: '../assets/18-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '18-ru.vtt',
+            src: '../assets/18-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BYzQ0YmIzYzYtOTk2NC00OWI3LWI2YjAtYzhlMDUwNWQ2NmRlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg',
@@ -3909,19 +3909,19 @@ const films: Film[] = [
     film: {
       name: 'Достать ножи',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BZGI3ODkzOTUtNzJjNS00ODhkLThkMzMtZjM4NjViZTYxNGY5XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '18.mp4',
+      src: '../assets/18.mp4',
       subtitles: [
         {
-          src: '18-en.vtt',
+          src: '../assets/18-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '18-ru.vtt',
+          src: '../assets/18-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -3936,20 +3936,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BNjM5OTQzMTg4N15BMl5BanBnXkFtZTgwOTgyMjM0NTE@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-        src: '19.mp4',
+        src: '../assets/19.mp4',
         subtitles: [
           {
-            src: '19-en.vtt',
+            src: '../assets/19-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '19-ru.vtt',
+            src: '../assets/19-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTc0NDQ4MjkyOF5BMl5BanBnXkFtZTgwNDE2NzUzOTE@._V1_.jpg',
@@ -4010,19 +4010,19 @@ const films: Film[] = [
     film: {
       name: 'Интерстеллар',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BNjM5OTQzMTg4N15BMl5BanBnXkFtZTgwOTgyMjM0NTE@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-      src: '19.mp4',
+      src: '../assets/19.mp4',
       subtitles: [
         {
-          src: '19-en.vtt',
+          src: '../assets/19-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '19-ru.vtt',
+          src: '../assets/19-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -4037,20 +4037,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYjZkYzYwNmQtNjk3ZC00Y2M2LThhY2EtODIzOThiNDJmMTk2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
-        src: '20.mp4',
+        src: '../assets/20.mp4',
         subtitles: [
           {
-            src: '20-en.vtt',
+            src: '../assets/20-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '20-ru.vtt',
+            src: '../assets/20-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BNTkxMTQ1Njc1Ml5BMl5BanBnXkFtZTgwNDA5OTc5NDM@._V1_.jpg',
@@ -4105,19 +4105,19 @@ const films: Film[] = [
     film: {
       name: 'Остров собак',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYjZkYzYwNmQtNjk3ZC00Y2M2LThhY2EtODIzOThiNDJmMTk2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
-      src: '20.mp4',
+      src: '../assets/20.mp4',
       subtitles: [
         {
-          src: '20-en.vtt',
+          src: '../assets/20-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '20-ru.vtt',
+          src: '../assets/20-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -4132,20 +4132,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTAxNDk2ODYzMzleQTJeQWpwZ15BbWU4MDY5NDExNzIx._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '21.mp4',
+        src: '../assets/21.mp4',
         subtitles: [
           {
-            src: '21-en.vtt',
+            src: '../assets/21-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '21-ru.vtt',
+            src: '../assets/21-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMjA1OTUxNjU4M15BMl5BanBnXkFtZTgwNTY3MDk5MjE@._V1_.jpg',
@@ -4205,19 +4205,19 @@ const films: Film[] = [
     film: {
       name: 'Джон Уик',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTAxNDk2ODYzMzleQTJeQWpwZ15BbWU4MDY5NDExNzIx._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '21.mp4',
+      src: '../assets/21.mp4',
       subtitles: [
         {
-          src: '21-en.vtt',
+          src: '../assets/21-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '21-ru.vtt',
+          src: '../assets/21-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -4232,20 +4232,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg',
-        src: '1.mp4',
+        src: '../assets/1.mp4',
         subtitles: [
           {
-            src: '1-sp.vtt',
+            src: '../assets/1-sp.vtt',
             srcLang: 'sp',
             label: 'Spanish',
           },
           {
-            src: '1-ru.vtt',
+            src: '../assets/1-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/d8a6a58d-1e25-4310-ba96-09883523b26e/10x7/1000.jpg',
@@ -4290,15 +4290,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4307,15 +4307,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4324,15 +4324,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4341,15 +4341,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4372,20 +4372,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/4440a521-5663-4d4e-8326-02bf205b665f/10x5/550.jpg',
-        src: '2.mp4',
+        src: '../assets/2.mp4',
         subtitles: [
           {
-            src: '2-en.vtt',
+            src: '../assets/2-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '2-ru.vtt',
+            src: '../assets/2-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://i.imgur.com/imKqvro.jpg',
@@ -4439,15 +4439,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4456,15 +4456,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4473,15 +4473,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4490,15 +4490,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4521,20 +4521,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/a6ba8fe9-96c4-4247-adf1-08a586b41fcd/10x5/550.jpg',
-        src: '3.mp4',
+        src: '../assets/3.mp4',
         subtitles: [
           {
-            src: '3-en.vtt',
+            src: '../assets/3-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '3-ru.vtt',
+            src: '../assets/3-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: ['https://pic.showjet.ru/pics/f57d97e2-4343-4190-ba62-e7b35f21aa13/10x7/1000.jpg', 'https://pic.showjet.ru/pics/bd46c3b8-d2ce-4467-b18d-76d820bd136c/10x7/1000.jpg', 'https://pic.showjet.ru/pics/90147cc5-81e0-4920-9525-b1a2859b30dd/10x7/1000.jpg', 'https://pic.showjet.ru/pics/095bf496-1b81-4a55-a7a3-1e01be77bf7f/10x7/1000.jpg', 'https://pic.showjet.ru/pics/6c6a7ceb-e19e-47b3-8fd5-9697e703de36/10x7/1000.jpg', 'https://pic.showjet.ru/pics/51961699-1ce6-4cea-a0d0-3656d908495e/10x7/1000.jpg'],
     description: 'Жестокий и эпический вестерн о становлении Америки, показанном через историю одной семьи. В главной роли — Пирс Броснан. \n1849 год, центральный Техас. Юный Илай Маккалоу попадает в плен к индейцам после того, как те ворвались в дом и безжалостно расправились с его сёстрами и матерью. Неопытный, но смелый парень учится выживать и договариваться с диким племенем. \n1915 год, южный Техас. Параллельно разворачивается история уже взрослого Илая Маккалоу в окружении детей и внуков. Властный и уважаемый глава семьи, он владеет ранчо и пытается отыскать нефть. Теперь вместо индейцев его главными врагами стали мексиканцы, которые вот-вот развяжут войну. Однако сын Илая, Пит, не готов мириться с жестокими методами отца и отпускает одного мексиканца, которого Маккалоу взяли в плен. Это грозит разрушить не только семейные узы, но и всю империю Илая Маккалоу, которую тот строил много лет...',
@@ -4577,15 +4577,15 @@ const films: Film[] = [
             {
               name: 'Нумунуу',
               thumbnail: 'https://pic.showjet.ru/pics/4b29fa99-d5d6-4a0b-8961-c303c8dfd4dc/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4594,15 +4594,15 @@ const films: Film[] = [
             {
               name: 'Десять долларов и ощипанный гусь',
               thumbnail: 'https://pic.showjet.ru/pics/4db1a856-346f-4169-bfe3-0ef37a4e3a96/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4611,15 +4611,15 @@ const films: Film[] = [
             {
               name: 'Слепой тигр',
               thumbnail: 'https://pic.showjet.ru/pics/f6a0943c-1338-492d-aa09-9003f246f5d5/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4628,15 +4628,15 @@ const films: Film[] = [
             {
               name: 'Оскальпированная собака',
               thumbnail: 'https://pic.showjet.ru/pics/e5293d71-6402-402d-aeb1-e56e8fb2f434/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4645,15 +4645,15 @@ const films: Film[] = [
             {
               name: 'Горячее масло',
               thumbnail: 'https://pic.showjet.ru/pics/8bef34f2-b1e8-425b-9485-ae55a67666cc/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4662,15 +4662,15 @@ const films: Film[] = [
             {
               name: 'Голубой свет',
               thumbnail: 'https://pic.showjet.ru/pics/32cefeef-a8f2-44c4-8edc-636bdd20ee90/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4679,15 +4679,15 @@ const films: Film[] = [
             {
               name: 'Кто-то взял лопату',
               thumbnail: 'https://pic.showjet.ru/pics/ed8c9aa6-23ec-47fb-825d-924c6971618a/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4696,15 +4696,15 @@ const films: Film[] = [
             {
               name: 'Все их обвинительные следы',
               thumbnail: 'https://pic.showjet.ru/pics/d18d3370-c8a7-43f4-b7da-b224d8047045/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4713,15 +4713,15 @@ const films: Film[] = [
             {
               name: 'Медведь',
               thumbnail: 'https://pic.showjet.ru/pics/2828829f-7c9f-4f1f-9fd4-f1525519604a/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4730,15 +4730,15 @@ const films: Film[] = [
             {
               name: 'Легенда',
               thumbnail: 'https://pic.showjet.ru/pics/6939ca8f-e8ba-464c-9c9a-cd0c24257542/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4752,15 +4752,15 @@ const films: Film[] = [
             {
               name: 'Первый сын Техаса',
               thumbnail: 'https://pic.showjet.ru/pics/a00f09db-c2aa-4e01-a641-65480ad71301/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4769,15 +4769,15 @@ const films: Film[] = [
             {
               name: 'Сливовое дерево',
               thumbnail: 'https://pic.showjet.ru/pics/b7aba7f2-6805-46b3-867c-c3ebc1fe6c7c/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4786,15 +4786,15 @@ const films: Film[] = [
             {
               name: 'Вторая империя',
               thumbnail: 'https://pic.showjet.ru/pics/5ff4588a-7cc2-4ddc-86da-e95799ac46a5/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4803,15 +4803,15 @@ const films: Film[] = [
             {
               name: 'Песня смерти',
               thumbnail: 'https://pic.showjet.ru/pics/8bf58de5-79e9-4262-a1aa-4a88b879706c/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4820,15 +4820,15 @@ const films: Film[] = [
             {
               name: 'Никаких пленных',
               thumbnail: 'https://pic.showjet.ru/pics/4f17fb20-62d6-4746-a205-4ab51ce98401/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4837,15 +4837,15 @@ const films: Film[] = [
             {
               name: 'Охотник на буйволов',
               thumbnail: 'https://pic.showjet.ru/pics/99af408e-6c9a-46f2-9809-01d5d6bd7786/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4854,15 +4854,15 @@ const films: Film[] = [
             {
               name: 'Брачные узы',
               thumbnail: 'https://pic.showjet.ru/pics/0e377e3f-380d-4c92-bcff-89fe04257c55/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4871,15 +4871,15 @@ const films: Film[] = [
             {
               name: 'Медовая охота',
               thumbnail: 'https://pic.showjet.ru/pics/cf2ec742-6a20-4212-8c64-dd40fa605610/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4888,15 +4888,15 @@ const films: Film[] = [
             {
               name: 'Пророчество',
               thumbnail: 'https://pic.showjet.ru/pics/497eedd0-2953-4600-b348-0fcb4049bdc2/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4905,15 +4905,15 @@ const films: Film[] = [
             {
               name: 'Скальпы',
               thumbnail: 'https://pic.showjet.ru/pics/6f2f017b-5fab-48fd-b93d-7a0fa7a8f171/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -4936,20 +4936,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/121a0a7b-a56b-4ed5-aa7c-25a4c26f62a3/10x5/550.jpg',
-        src: '4.mp4',
+        src: '../assets/4.mp4',
         subtitles: [
           {
-            src: '4-en.vtt',
+            src: '../assets/4-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '4-ru.vtt',
+            src: '../assets/4-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/278d3a15-9dd9-4fa2-a499-c9cc25796322/10x7/1000.jpg',
@@ -5007,15 +5007,15 @@ const films: Film[] = [
             {
               name: 'Индиец в английском костюме',
               thumbnail: 'https://pic.showjet.ru/pics/bc109e10-ea6f-40ab-b1b7-047fba82d2ac/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5024,15 +5024,15 @@ const films: Film[] = [
             {
               name: 'Чёрная змея',
               thumbnail: 'https://pic.showjet.ru/pics/b50f9d21-a89f-46fc-b555-a6f991c41d40/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5041,15 +5041,15 @@ const films: Film[] = [
             {
               name: 'Белые боги',
               thumbnail: 'https://pic.showjet.ru/pics/6393e2c2-a0f1-4176-a2be-744b611a791f/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5058,15 +5058,15 @@ const films: Film[] = [
             {
               name: 'Пустое кресло',
               thumbnail: 'https://pic.showjet.ru/pics/b9193410-fe21-45b7-ab4c-388cb901aaa0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5075,15 +5075,15 @@ const films: Film[] = [
             {
               name: 'Игра в прятки',
               thumbnail: 'https://pic.showjet.ru/pics/917274f0-e40e-4185-a364-b4b7ce0dceea/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5092,15 +5092,15 @@ const films: Film[] = [
             {
               name: 'Подарок для короля',
               thumbnail: 'https://pic.showjet.ru/pics/43356090-ccce-4d1b-8b70-ec92dd68eff2/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5109,15 +5109,15 @@ const films: Film[] = [
             {
               name: 'Предложение',
               thumbnail: 'https://pic.showjet.ru/pics/0596b831-2c25-4776-9eca-05bb8c7ac74e/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5126,15 +5126,15 @@ const films: Film[] = [
             {
               name: 'День рождения',
               thumbnail: 'https://pic.showjet.ru/pics/6dd94ed7-bef4-46b3-8fa5-9bc8672ffb58/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5143,15 +5143,15 @@ const films: Film[] = [
             {
               name: 'Победитель забирает всё',
               thumbnail: 'https://pic.showjet.ru/pics/5bed2232-bfc6-46de-9961-591741cbf549/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5160,15 +5160,15 @@ const films: Film[] = [
             {
               name: 'Отъезд из дома',
               thumbnail: 'https://pic.showjet.ru/pics/59687dc9-9431-4d07-8d68-56fcff9e80a7/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5182,15 +5182,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/285a7f76-5d82-48f4-bc87-78670f464015/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5199,15 +5199,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/e021d111-96ee-4bae-b651-d4c9b41b555a/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5216,15 +5216,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/6623d27d-8d09-4858-aac5-5b20a2067569/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5233,15 +5233,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/875d952a-e889-4cee-9491-23836ca85576/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5250,15 +5250,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/fe79ab1c-ff16-44ca-90f9-c52091558fd0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5267,15 +5267,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/4a9e003f-1f71-46f7-8158-b1acac914233/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5284,15 +5284,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 7',
               thumbnail: 'https://pic.showjet.ru/pics/ee9138a6-c10e-414c-9d63-6928b152a5e0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5301,15 +5301,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 8',
               thumbnail: 'https://pic.showjet.ru/pics/2b8a943b-e609-410d-b931-f2e49779cca8/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5318,15 +5318,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 9',
               thumbnail: 'https://pic.showjet.ru/pics/a8e808c2-2fc9-4039-ae5e-de1b833b2514/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5335,15 +5335,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 10',
               thumbnail: 'https://pic.showjet.ru/pics/02b76b56-d3ce-4378-b681-ef15cb2b24db/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5366,20 +5366,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/adb38dc6-441c-442b-af92-33456eb57f7f/10x5/550.jpg',
-        src: '5.mp4',
+        src: '../assets/5.mp4',
         subtitles: [
           {
-            src: '5-en.vtt',
+            src: '../assets/5-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '5-ru.vtt',
+            src: '../assets/5-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/e0ae03d8-d9df-40ff-a36a-9d62bf590c51/10x7/1000.jpg',
@@ -5428,15 +5428,15 @@ const films: Film[] = [
             {
               name: 'Друид',
               thumbnail: 'https://pic.showjet.ru/pics/360459d2-7868-4ce4-a4f8-05c46e9627e6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5445,15 +5445,15 @@ const films: Film[] = [
             {
               name: 'Дух',
               thumbnail: 'https://pic.showjet.ru/pics/3b7cb649-939d-49eb-afcb-3a2a8c72a843/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5462,15 +5462,15 @@ const films: Film[] = [
             {
               name: 'Грэймарк',
               thumbnail: 'https://pic.showjet.ru/pics/2a53e92d-acf6-41dc-856f-de9a7d32d6d6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5479,15 +5479,15 @@ const films: Film[] = [
             {
               name: 'Обитатель',
               thumbnail: 'https://pic.showjet.ru/pics/4641e4cc-1131-476f-93cb-e830400f6079/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5496,15 +5496,15 @@ const films: Film[] = [
             {
               name: 'Паранор',
               thumbnail: 'https://pic.showjet.ru/pics/45e54d0d-7b9f-4d60-9ae4-caacf1de4171/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5513,15 +5513,15 @@ const films: Film[] = [
             {
               name: 'Алый',
               thumbnail: 'https://pic.showjet.ru/pics/0d5e8203-870d-45e9-baf3-375e13341740/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5530,15 +5530,15 @@ const films: Film[] = [
             {
               name: 'Чародей',
               thumbnail: 'https://pic.showjet.ru/pics/3c6474a9-cb81-4ac4-a325-4f5683534922/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5547,15 +5547,15 @@ const films: Film[] = [
             {
               name: 'Эмберли',
               thumbnail: 'https://pic.showjet.ru/pics/b733396c-16ab-4468-b8d7-0085783bb0a6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5564,15 +5564,15 @@ const films: Film[] = [
             {
               name: 'Уайлдерун',
               thumbnail: 'https://pic.showjet.ru/pics/58f03822-be47-4493-8fb1-8eb6b14d9bb8/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5581,15 +5581,15 @@ const films: Film[] = [
             {
               name: 'Кровь',
               thumbnail: 'https://pic.showjet.ru/pics/168aeb9b-247c-4141-bdef-ac1feb7d4cb1/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5603,15 +5603,15 @@ const films: Film[] = [
             {
               name: 'Избранная: Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/25e8bd73-c497-41cb-9c18-3562c52b1552/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5620,15 +5620,15 @@ const films: Film[] = [
             {
               name: 'Избранная: Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/c3077ef4-48a5-4293-8f92-d07d2402be3d/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5637,15 +5637,15 @@ const films: Film[] = [
             {
               name: 'Фурия',
               thumbnail: 'https://pic.showjet.ru/pics/fc4e239a-0969-44c2-abe0-55d480d16356/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5654,15 +5654,15 @@ const films: Film[] = [
             {
               name: 'Подмена',
               thumbnail: 'https://pic.showjet.ru/pics/f8a9e6ba-eb86-4ec5-ac74-cc73d02c43f7/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5671,15 +5671,15 @@ const films: Film[] = [
             {
               name: 'Жнец',
               thumbnail: 'https://pic.showjet.ru/pics/0d47802d-da71-44fd-8e03-6da42a744b3c/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5688,15 +5688,15 @@ const films: Film[] = [
             {
               name: 'Пайкон',
               thumbnail: 'https://pic.showjet.ru/pics/63ed40ac-b2b6-4eb1-af1b-3a05c8ca22d9/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5705,15 +5705,15 @@ const films: Film[] = [
             {
               name: 'Разлом',
               thumbnail: 'https://pic.showjet.ru/pics/f0f8e6e1-8acb-4181-b1df-11b57b37dfca/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5722,15 +5722,15 @@ const films: Film[] = [
             {
               name: 'Утопия',
               thumbnail: 'https://pic.showjet.ru/pics/c5534b8b-fc9f-4895-96c7-a998e524e492/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5739,15 +5739,15 @@ const films: Film[] = [
             {
               name: 'Убежище',
               thumbnail: 'https://pic.showjet.ru/pics/e8c5a84f-4b56-4a41-a7cd-19c973a0d83c/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5756,15 +5756,15 @@ const films: Film[] = [
             {
               name: 'Элькрис',
               thumbnail: 'https://pic.showjet.ru/pics/4b843bd5-d6e8-44c4-bc6e-d6e3c3cdc4b2/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5787,20 +5787,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/fab57c5e-75a3-4310-a431-f7b576b5cd26/10x5/550.jpg',
-        src: '6.mp4',
+        src: '../assets/6.mp4',
         subtitles: [
           {
-            src: '6-sp.vtt',
+            src: '../assets/6-sp.vtt',
             srcLang: 'sp',
             label: 'Spanish',
           },
           {
-            src: '6-ru.vtt',
+            src: '../assets/6-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/c308d35e-35a1-4408-83b3-69789451002e/10x7/1000.jpg',
@@ -5850,15 +5850,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка комнаты 308',
               thumbnail: 'https://pic.showjet.ru/pics/93d09f2d-7696-499a-b199-953ecf4894f9/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5867,15 +5867,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна капсулы времени. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/f1b9d562-a17e-4a2a-845d-dd27c881c0a6/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5884,15 +5884,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна капсулы времени. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/29dfe795-588d-4968-9b3e-39047d02d821/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5901,15 +5901,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна гостя',
               thumbnail: 'https://pic.showjet.ru/pics/787f7dd5-8730-4e0d-9e75-cd3c5dfd7529/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5918,15 +5918,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна одной женщины',
               thumbnail: 'https://pic.showjet.ru/pics/078a8ccd-2dd5-4c3d-acc6-89724aa8d6f2/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5935,15 +5935,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна невидимого убийцы',
               thumbnail: 'https://pic.showjet.ru/pics/a29bb785-a12c-4ef6-ab1f-79f839784e05/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5952,15 +5952,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна преступления века',
               thumbnail: 'https://pic.showjet.ru/pics/b9cc4b88-996d-4029-a448-7bab02beea11/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5969,15 +5969,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна призрака',
               thumbnail: 'https://pic.showjet.ru/pics/ba4671c0-71ed-441c-8932-0aeb5e809732/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -5986,15 +5986,15 @@ const films: Film[] = [
             {
               name: 'Лаура и шпион, который много болтал',
               thumbnail: 'https://pic.showjet.ru/pics/f2c1a40c-0227-450e-9fb6-f318cb63627e/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6003,15 +6003,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна пойманных мышей',
               thumbnail: 'https://pic.showjet.ru/pics/ac2c6427-5383-40c9-b9bc-804a8e0c5a78/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6020,15 +6020,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна ликов истины',
               thumbnail: 'https://pic.showjet.ru/pics/8baefd1f-51c0-4adb-ab58-88ae3556f9e5/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6037,15 +6037,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/14c862ac-2ca3-4832-ad90-cde6baa21627/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6054,15 +6054,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/937aef3f-43c4-4b3f-ac27-ccc7d613b174/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6071,15 +6071,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 3',
               thumbnail: 'https://pic.showjet.ru/pics/937aef3f-43c4-4b3f-ac27-ccc7d613b174/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6093,15 +6093,15 @@ const films: Film[] = [
             {
               name: 'Тайна молчуна',
               thumbnail: 'https://pic.showjet.ru/pics/0f83463c-d300-4588-9321-b93b3bba96c1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6110,15 +6110,15 @@ const films: Film[] = [
             {
               name: 'Тайна клуба',
               thumbnail: 'https://pic.showjet.ru/pics/438c316f-df2c-42d3-8c18-7d709b90b22a/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6127,15 +6127,15 @@ const films: Film[] = [
             {
               name: 'Тайна человека, которого не было',
               thumbnail: 'https://pic.showjet.ru/pics/46a728a5-0e7a-4308-b2ca-22e9c7139e38/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6144,15 +6144,15 @@ const films: Film[] = [
             {
               name: 'Тайна недовольного пациента',
               thumbnail: 'https://pic.showjet.ru/pics/438a6834-2657-4fbc-be57-0f3c6003a25c/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6161,15 +6161,15 @@ const films: Film[] = [
             {
               name: 'Тайна человека, который не хотел умирать',
               thumbnail: 'https://pic.showjet.ru/pics/ef5143b8-7223-45fe-b46e-0273a266f3ea/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6178,15 +6178,15 @@ const films: Film[] = [
             {
               name: 'Тайна восьми мужчин',
               thumbnail: 'https://pic.showjet.ru/pics/16111a03-134f-4c73-ba79-d697cf7e34be/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6195,15 +6195,15 @@ const films: Film[] = [
             {
               name: 'Тайна кричащего свидетеля',
               thumbnail: 'https://pic.showjet.ru/pics/9ec1cfee-6d95-4999-84e1-1269f534ea10/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6212,15 +6212,15 @@ const films: Film[] = [
             {
               name: 'Тайна необычного трюка',
               thumbnail: 'https://pic.showjet.ru/pics/6995ac7b-5fbf-4bd5-86a2-c4172d6b04a1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6229,15 +6229,15 @@ const films: Film[] = [
             {
               name: 'Тайна преступного аббатства',
               thumbnail: 'https://pic.showjet.ru/pics/17a59cdd-8507-4f9f-923f-36a6e5bbec33/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6246,15 +6246,15 @@ const films: Film[] = [
             {
               name: 'Тайна красной леди',
               thumbnail: 'https://pic.showjet.ru/pics/f0ecb1cf-be3b-4dc2-bdb5-eb4d7506cc8d/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6263,15 +6263,15 @@ const films: Film[] = [
             {
               name: 'Тайна десяти незнакомцев. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/5affa3d5-68c6-4a48-9fb8-919f609ca7cd/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6280,15 +6280,15 @@ const films: Film[] = [
             {
               name: 'Тайна десяти незнакомцев. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/182848c5-62bd-47c1-aaf1-10e8d28444a9/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6302,15 +6302,15 @@ const films: Film[] = [
             {
               name: 'Тайна запечатанной комнаты. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/cff1a7d9-2c46-49c9-97dd-f215a82b0df1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6319,15 +6319,15 @@ const films: Film[] = [
             {
               name: 'Тайна запечатанной комнаты. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/24e77673-eb0a-40bf-a7a1-d3b670c1bd6d/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6336,15 +6336,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального соседа. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/2842bfef-d0b7-4772-997c-4e3a3d00b714/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6353,15 +6353,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального соседа. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/0db050a1-ee55-4f55-992b-bd6f9b1252f2/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6370,15 +6370,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального алиби. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/bc7e30c8-d704-437d-8fcf-3a981581dfaa/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6387,15 +6387,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального алиби. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/503d32b5-7769-425a-95fc-9461a3614272/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6404,15 +6404,15 @@ const films: Film[] = [
             {
               name: 'Тайна места преступления',
               thumbnail: 'https://pic.showjet.ru/pics/8da94e6e-01a7-4b1b-8ed5-a887fd0faf35/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6421,15 +6421,15 @@ const films: Film[] = [
             {
               name: 'Тайна синего попугая. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/e24cc7b0-325e-489a-8779-4336c1ab9332/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6438,15 +6438,15 @@ const films: Film[] = [
             {
               name: 'Тайна синего попугая. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/f7d93d95-17a2-47d0-bb9c-ff2ef9e6b7f3/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6455,15 +6455,15 @@ const films: Film[] = [
             {
               name: 'Тайна найденного трупа',
               thumbnail: 'https://pic.showjet.ru/pics/7a97aa9d-ceac-4e29-915e-36e0455fca50/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6486,20 +6486,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/45586294-928e-4ebf-94aa-466caa626060/10x5/550.jpg',
-        src: '7.mp4',
+        src: '../assets/7.mp4',
         subtitles: [
           {
-            src: '7-en.vtt',
+            src: '../assets/7-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '7-ru.vtt',
+            src: '../assets/7-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/e39ee4f3-f56c-44f3-bc88-10176eeadfe2/10x7/1000.jpg',
@@ -6553,15 +6553,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/b3ce4602-b324-4912-8b3d-c4c6f4c2ae49/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6570,15 +6570,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/371788d1-52ec-42eb-a4f4-b55d3ab6f618/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6587,15 +6587,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/701749f1-f300-4bca-a2ed-d5e81433cceb/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6604,15 +6604,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/ff00806c-75a5-4b56-b73f-1f5df5f324f0/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6621,15 +6621,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/ab8186e0-4e7d-4b82-9022-f284ecce6251/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6638,15 +6638,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/0e697263-140e-4967-9192-0cbd871589dd/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6660,15 +6660,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/fbe6ac2b-3bbf-4ae6-8bd9-6b0c9ebd5446/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6677,15 +6677,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/d9bda9bd-a8ee-4217-adc7-836b6259c879/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6694,15 +6694,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/1fe76f9b-b64a-4226-9670-6f0bc5ca904b/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6711,15 +6711,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/9a6aca44-df21-4eab-b5cf-df9003ebd176/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6728,15 +6728,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/13c7773f-1c4d-4222-a2c6-52a93027008b/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6745,15 +6745,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/18715ea9-7241-4348-b10e-8be6309ed0d5/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6776,20 +6776,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/06f33b2d-e146-49d3-8ada-e082dcd12a7c/10x5/550.jpg',
-        src: '8.mp4',
+        src: '../assets/8.mp4',
         subtitles: [
           {
-            src: '8-en.vtt',
+            src: '../assets/8-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '8-ru.vtt',
+            src: '../assets/8-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/1067a9d4-5274-4e46-a025-72ecc4c11efa/10x7/1000.jpg',
@@ -6835,15 +6835,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/313b8ff2-2d38-44db-82f8-e56b4ed24bb8/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6852,15 +6852,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/952e497f-cbec-4485-a73e-767162eaa4c4/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6869,15 +6869,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/37871517-0a5c-4f51-957d-6f39c448be0e/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6886,15 +6886,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/abb2ba21-0630-4c85-aa5d-7fb2d1294caf/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6917,20 +6917,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/d388f434-a6dd-4c02-a95f-e41f3649fb27/10x5/550.jpg',
-        src: '9.mp4',
+        src: '../assets/9.mp4',
         subtitles: [
           {
-            src: '9-en.vtt',
+            src: '../assets/9-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '9-ru.vtt',
+            src: '../assets/9-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/0327a903-cb0f-4a94-a83d-69e8958107e7/10x7/1000.jpg',
@@ -6974,15 +6974,15 @@ const films: Film[] = [
             {
               name: 'Безнадежные долги. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/b671462c-3943-435a-8e90-ae79a2ed8112/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -6991,15 +6991,15 @@ const films: Film[] = [
             {
               name: 'Безнадежные долги. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/95d196c4-49ac-4968-b2ab-8f81f10f7614/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7008,15 +7008,15 @@ const films: Film[] = [
             {
               name: 'Черный прилив. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/1ba14a1b-f3cb-47b8-bdb8-34b19fd9c7c9/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7025,15 +7025,15 @@ const films: Film[] = [
             {
               name: 'Черный прилив. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/d788e49f-a8c6-45c6-87e2-4464610de758/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7042,15 +7042,15 @@ const films: Film[] = [
             {
               name: 'Тупик. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/3a4bd9ce-bb7a-4b89-a150-0fcf002e9821/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7059,15 +7059,15 @@ const films: Film[] = [
             {
               name: 'Тупик. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/d4dd73f4-345b-4496-ae0b-6b483084bde1/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7090,20 +7090,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/dd1bf4c8-251e-4821-86f1-2c6a974f2bc6/10x5/550.jpg',
-        src: '10.mp4',
+        src: '../assets/10.mp4',
         subtitles: [
           {
-            src: '10-en.vtt',
+            src: '../assets/10-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '10-ru.vtt',
+            src: '../assets/10-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/0a1f6aba-b650-422b-9838-d7ed6952b8c9/10x7/1000.jpg',
@@ -7165,15 +7165,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/8a29746a-e279-4e25-bf67-8f50a8dcb501/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7182,15 +7182,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/33d8c25e-a8b3-42b2-af97-d5a8f0536f92/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7199,15 +7199,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fa180cdf-f44f-4d21-99cd-16d47cb2002e/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7216,15 +7216,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/eb85daa7-22cc-4071-af27-741e2dfaa57c/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7233,15 +7233,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/9fa8aa26-968d-4ecd-a905-0120fc8ff312/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7250,15 +7250,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/1673b773-883b-4bc7-80e2-1897e0ae9a56/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7272,15 +7272,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/e8fde516-06b2-4b0a-98ad-538dc6d7cb96/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7289,15 +7289,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/b958a6c3-6560-4955-a035-797838920393/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7306,15 +7306,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/8c99629f-f98e-4707-9351-6af9af57431e/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7323,15 +7323,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/c4d02fe7-2b88-4691-9b79-8d642eb3d741/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7340,15 +7340,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/eb46a9b4-94a3-40af-bce7-08d1759809e8/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7357,15 +7357,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/3fcbee17-0f28-4e56-af26-afc69f5de79a/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -7388,20 +7388,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzcwY2E2YTItMjFkZS00OTdjLTkyZTQtOTMxYzc3MGYyNmFkXkEyXkFqcGdeQXN3aWZ0dw@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '11.mp4',
+        src: '../assets/11.mp4',
         subtitles: [
           {
-            src: '11-en.vtt',
+            src: '../assets/11-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '11-ru.vtt',
+            src: '../assets/11-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BODIwMTc0NDA4Ml5BMl5BanBnXkFtZTgwNDE3OTEwMjE@._V1_.jpg',
@@ -7454,15 +7454,15 @@ const films: Film[] = [
     film: {
       name: 'Мой сосед Тоторо',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzcwY2E2YTItMjFkZS00OTdjLTkyZTQtOTMxYzc3MGYyNmFkXkEyXkFqcGdeQXN3aWZ0dw@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '11.mp4',
+      src: '../assets/11.mp4',
       subtitles: [
         {
-          src: '11-en.vtt',
+          src: '../assets/11-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '11-ru.vtt',
+          src: '../assets/11-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -7481,20 +7481,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/8884a77f204ed671f6612c7920671078/100x64_3',
-        src: '12.mp4',
+        src: '../assets/12.mp4',
         subtitles: [
           {
-            src: '12-en.vtt',
+            src: '../assets/12-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '12-ru.vtt',
+            src: '../assets/12-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTc5MjM4Njg3Nl5BMl5BanBnXkFtZTgwNTk1NDU2NjM@._V1_.jpg',
@@ -7547,15 +7547,15 @@ const films: Film[] = [
     film: {
       name: 'Сияние',
       thumbnail: 'https://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/8884a77f204ed671f6612c7920671078/100x64_3',
-      src: '12.mp4',
+      src: '../assets/12.mp4',
       subtitles: [
         {
-          src: '12-en.vtt',
+          src: '../assets/12-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '12-ru.vtt',
+          src: '../assets/12-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -7574,20 +7574,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzMzMDAxZDAtYTBkNy00NjMwLWIyYzctODA1YzE0MzUwMTI4XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '13.mp4',
+        src: '../assets/13.mp4',
         subtitles: [
           {
-            src: '13-en.vtt',
+            src: '../assets/13-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '13-ru.vtt',
+            src: '../assets/13-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BN2ZmNWUzNTQtMDY2OS00YjBmLWI5NTQtMzg5MDk0MzM5OTc2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
@@ -7633,15 +7633,15 @@ const films: Film[] = [
     film: {
       name: 'Хороший, плохой, злой',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzMzMDAxZDAtYTBkNy00NjMwLWIyYzctODA1YzE0MzUwMTI4XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '13.mp4',
+      src: '../assets/13.mp4',
       subtitles: [
         {
-          src: '13-en.vtt',
+          src: '../assets/13-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '13-ru.vtt',
+          src: '../assets/13-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -7660,20 +7660,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjE3MjY3MTkzNV5BMl5BanBnXkFtZTgwNTE0NjU3MzI@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-        src: '14.mp4',
+        src: '../assets/14.mp4',
         subtitles: [
           {
-            src: '14-en.vtt',
+            src: '../assets/14-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '14-ru.vtt',
+            src: '../assets/14-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTg3NDIwNzU3MF5BMl5BanBnXkFtZTgwMDQ5MjY2MzI@._V1_.jpg',
@@ -7731,15 +7731,15 @@ const films: Film[] = [
     film: {
       name: 'Бегущий по лезвию 2049',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjE3MjY3MTkzNV5BMl5BanBnXkFtZTgwNTE0NjU3MzI@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-      src: '14.mp4',
+      src: '../assets/14.mp4',
       subtitles: [
         {
-          src: '14-en.vtt',
+          src: '../assets/14-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '14-ru.vtt',
+          src: '../assets/14-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -7758,20 +7758,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjM2OTU4MDA1OV5BMl5BanBnXkFtZTgwNzg2MTAyMzE@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '15.mp4',
+        src: '../assets/15.mp4',
         subtitles: [
           {
-            src: '15-en.vtt',
+            src: '../assets/15-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '15-ru.vtt',
+            src: '../assets/15-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTkwODI5ODcxMl5BMl5BanBnXkFtZTcwNjIyNDAxNw@@._V1_.jpg',
@@ -7830,15 +7830,15 @@ const films: Film[] = [
     film: {
       name: 'Девушка с татуировкой дракона',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjM2OTU4MDA1OV5BMl5BanBnXkFtZTgwNzg2MTAyMzE@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '15.mp4',
+      src: '../assets/15.mp4',
       subtitles: [
         {
-          src: '15-en.vtt',
+          src: '../assets/15-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '15-ru.vtt',
+          src: '../assets/15-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -7857,20 +7857,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTgxODI4OTU3N15BMl5BanBnXkFtZTgwODgzNDMzMTE@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '16.mp4',
+        src: '../assets/16.mp4',
         subtitles: [
           {
-            src: '16-en.vtt',
+            src: '../assets/16-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '16-ru.vtt',
+            src: '../assets/16-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMjM1MjYzODE4N15BMl5BanBnXkFtZTgwNzU4ODY2OTE@._V1_.jpg',
@@ -7930,15 +7930,15 @@ const films: Film[] = [
     film: {
       name: 'Отель «Гранд Будапешт»',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTgxODI4OTU3N15BMl5BanBnXkFtZTgwODgzNDMzMTE@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '16.mp4',
+      src: '../assets/16.mp4',
       subtitles: [
         {
-          src: '16-en.vtt',
+          src: '../assets/16-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '16-ru.vtt',
+          src: '../assets/16-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -7957,20 +7957,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BOTEwYWFjYmItZWJmNi00MGExLWI1MjktYzRiYjJkNzhiMWIxXkEyXkFqcGdeQXNuZXNodQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '17.mp4',
+        src: '../assets/17.mp4',
         subtitles: [
           {
-            src: '17-en.vtt',
+            src: '../assets/17-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '17-ru.vtt',
+            src: '../assets/17-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BOGI4ZjA5YjItNzM3My00Mjk4LWI4NzEtOGFhZWU5Y2Y1YmExXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg',
@@ -8029,15 +8029,15 @@ const films: Film[] = [
     film: {
       name: 'Дюна',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BOTEwYWFjYmItZWJmNi00MGExLWI1MjktYzRiYjJkNzhiMWIxXkEyXkFqcGdeQXNuZXNodQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '17.mp4',
+      src: '../assets/17.mp4',
       subtitles: [
         {
-          src: '17-en.vtt',
+          src: '../assets/17-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '17-ru.vtt',
+          src: '../assets/17-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -8056,20 +8056,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BZGI3ODkzOTUtNzJjNS00ODhkLThkMzMtZjM4NjViZTYxNGY5XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '18.mp4',
+        src: '../assets/18.mp4',
         subtitles: [
           {
-            src: '18-en.vtt',
+            src: '../assets/18-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '18-ru.vtt',
+            src: '../assets/18-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BYzQ0YmIzYzYtOTk2NC00OWI3LWI2YjAtYzhlMDUwNWQ2NmRlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg',
@@ -8128,19 +8128,19 @@ const films: Film[] = [
     film: {
       name: 'Достать ножи',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BZGI3ODkzOTUtNzJjNS00ODhkLThkMzMtZjM4NjViZTYxNGY5XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '18.mp4',
+      src: '../assets/18.mp4',
       subtitles: [
         {
-          src: '18-en.vtt',
+          src: '../assets/18-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '18-ru.vtt',
+          src: '../assets/18-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -8155,20 +8155,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BNjM5OTQzMTg4N15BMl5BanBnXkFtZTgwOTgyMjM0NTE@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-        src: '19.mp4',
+        src: '../assets/19.mp4',
         subtitles: [
           {
-            src: '19-en.vtt',
+            src: '../assets/19-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '19-ru.vtt',
+            src: '../assets/19-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTc0NDQ4MjkyOF5BMl5BanBnXkFtZTgwNDE2NzUzOTE@._V1_.jpg',
@@ -8229,19 +8229,19 @@ const films: Film[] = [
     film: {
       name: 'Интерстеллар',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BNjM5OTQzMTg4N15BMl5BanBnXkFtZTgwOTgyMjM0NTE@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-      src: '19.mp4',
+      src: '../assets/19.mp4',
       subtitles: [
         {
-          src: '19-en.vtt',
+          src: '../assets/19-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '19-ru.vtt',
+          src: '../assets/19-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -8256,20 +8256,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYjZkYzYwNmQtNjk3ZC00Y2M2LThhY2EtODIzOThiNDJmMTk2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
-        src: '20.mp4',
+        src: '../assets/20.mp4',
         subtitles: [
           {
-            src: '20-en.vtt',
+            src: '../assets/20-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '20-ru.vtt',
+            src: '../assets/20-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BNTkxMTQ1Njc1Ml5BMl5BanBnXkFtZTgwNDA5OTc5NDM@._V1_.jpg',
@@ -8324,19 +8324,19 @@ const films: Film[] = [
     film: {
       name: 'Остров собак',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYjZkYzYwNmQtNjk3ZC00Y2M2LThhY2EtODIzOThiNDJmMTk2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
-      src: '20.mp4',
+      src: '../assets/20.mp4',
       subtitles: [
         {
-          src: '20-en.vtt',
+          src: '../assets/20-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '20-ru.vtt',
+          src: '../assets/20-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -8351,20 +8351,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTAxNDk2ODYzMzleQTJeQWpwZ15BbWU4MDY5NDExNzIx._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '21.mp4',
+        src: '../assets/21.mp4',
         subtitles: [
           {
-            src: '21-en.vtt',
+            src: '../assets/21-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '21-ru.vtt',
+            src: '../assets/21-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMjA1OTUxNjU4M15BMl5BanBnXkFtZTgwNTY3MDk5MjE@._V1_.jpg',
@@ -8424,19 +8424,19 @@ const films: Film[] = [
     film: {
       name: 'Джон Уик',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTAxNDk2ODYzMzleQTJeQWpwZ15BbWU4MDY5NDExNzIx._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '21.mp4',
+      src: '../assets/21.mp4',
       subtitles: [
         {
-          src: '21-en.vtt',
+          src: '../assets/21-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '21-ru.vtt',
+          src: '../assets/21-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -8451,20 +8451,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/eafa7275-22f1-42eb-aeb0-04b8f2baa190/10x5/550.jpg',
-        src: '1.mp4',
+        src: '../assets/1.mp4',
         subtitles: [
           {
-            src: '1-sp.vtt',
+            src: '../assets/1-sp.vtt',
             srcLang: 'sp',
             label: 'Spanish',
           },
           {
-            src: '1-ru.vtt',
+            src: '../assets/1-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/d8a6a58d-1e25-4310-ba96-09883523b26e/10x7/1000.jpg',
@@ -8509,15 +8509,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8526,15 +8526,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8543,15 +8543,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8560,15 +8560,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
-              src: '1.mp4',
+              src: '../assets/1.mp4',
               subtitles: [
                 {
-                  src: '1-sp.vtt',
+                  src: '../assets/1-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '1-ru.vtt',
+                  src: '../assets/1-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8591,20 +8591,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/4440a521-5663-4d4e-8326-02bf205b665f/10x5/550.jpg',
-        src: '2.mp4',
+        src: '../assets/2.mp4',
         subtitles: [
           {
-            src: '2-en.vtt',
+            src: '../assets/2-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '2-ru.vtt',
+            src: '../assets/2-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://i.imgur.com/imKqvro.jpg',
@@ -8658,15 +8658,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/91b51c45-7915-4c7a-a3fc-8c9213eaab0e/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8675,15 +8675,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/ee3ce08e-c57c-463e-b3d5-0592358160d3/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8692,15 +8692,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fb8f8a02-cc38-4aaa-bf5a-3365488f3a83/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8709,15 +8709,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/f4079f61-9e69-4664-950f-dc47917233b0/10x7/400.jpg',
-              src: '2.mp4',
+              src: '../assets/2.mp4',
               subtitles: [
                 {
-                  src: '2-en.vtt',
+                  src: '../assets/2-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '2-ru.vtt',
+                  src: '../assets/2-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8740,20 +8740,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/a6ba8fe9-96c4-4247-adf1-08a586b41fcd/10x5/550.jpg',
-        src: '3.mp4',
+        src: '../assets/3.mp4',
         subtitles: [
           {
-            src: '3-en.vtt',
+            src: '../assets/3-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '3-ru.vtt',
+            src: '../assets/3-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: ['https://pic.showjet.ru/pics/f57d97e2-4343-4190-ba62-e7b35f21aa13/10x7/1000.jpg', 'https://pic.showjet.ru/pics/bd46c3b8-d2ce-4467-b18d-76d820bd136c/10x7/1000.jpg', 'https://pic.showjet.ru/pics/90147cc5-81e0-4920-9525-b1a2859b30dd/10x7/1000.jpg', 'https://pic.showjet.ru/pics/095bf496-1b81-4a55-a7a3-1e01be77bf7f/10x7/1000.jpg', 'https://pic.showjet.ru/pics/6c6a7ceb-e19e-47b3-8fd5-9697e703de36/10x7/1000.jpg', 'https://pic.showjet.ru/pics/51961699-1ce6-4cea-a0d0-3656d908495e/10x7/1000.jpg'],
     description: 'Жестокий и эпический вестерн о становлении Америки, показанном через историю одной семьи. В главной роли — Пирс Броснан. \n1849 год, центральный Техас. Юный Илай Маккалоу попадает в плен к индейцам после того, как те ворвались в дом и безжалостно расправились с его сёстрами и матерью. Неопытный, но смелый парень учится выживать и договариваться с диким племенем. \n1915 год, южный Техас. Параллельно разворачивается история уже взрослого Илая Маккалоу в окружении детей и внуков. Властный и уважаемый глава семьи, он владеет ранчо и пытается отыскать нефть. Теперь вместо индейцев его главными врагами стали мексиканцы, которые вот-вот развяжут войну. Однако сын Илая, Пит, не готов мириться с жестокими методами отца и отпускает одного мексиканца, которого Маккалоу взяли в плен. Это грозит разрушить не только семейные узы, но и всю империю Илая Маккалоу, которую тот строил много лет...',
@@ -8796,15 +8796,15 @@ const films: Film[] = [
             {
               name: 'Нумунуу',
               thumbnail: 'https://pic.showjet.ru/pics/4b29fa99-d5d6-4a0b-8961-c303c8dfd4dc/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8813,15 +8813,15 @@ const films: Film[] = [
             {
               name: 'Десять долларов и ощипанный гусь',
               thumbnail: 'https://pic.showjet.ru/pics/4db1a856-346f-4169-bfe3-0ef37a4e3a96/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8830,15 +8830,15 @@ const films: Film[] = [
             {
               name: 'Слепой тигр',
               thumbnail: 'https://pic.showjet.ru/pics/f6a0943c-1338-492d-aa09-9003f246f5d5/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8847,15 +8847,15 @@ const films: Film[] = [
             {
               name: 'Оскальпированная собака',
               thumbnail: 'https://pic.showjet.ru/pics/e5293d71-6402-402d-aeb1-e56e8fb2f434/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8864,15 +8864,15 @@ const films: Film[] = [
             {
               name: 'Горячее масло',
               thumbnail: 'https://pic.showjet.ru/pics/8bef34f2-b1e8-425b-9485-ae55a67666cc/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8881,15 +8881,15 @@ const films: Film[] = [
             {
               name: 'Голубой свет',
               thumbnail: 'https://pic.showjet.ru/pics/32cefeef-a8f2-44c4-8edc-636bdd20ee90/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8898,15 +8898,15 @@ const films: Film[] = [
             {
               name: 'Кто-то взял лопату',
               thumbnail: 'https://pic.showjet.ru/pics/ed8c9aa6-23ec-47fb-825d-924c6971618a/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8915,15 +8915,15 @@ const films: Film[] = [
             {
               name: 'Все их обвинительные следы',
               thumbnail: 'https://pic.showjet.ru/pics/d18d3370-c8a7-43f4-b7da-b224d8047045/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8932,15 +8932,15 @@ const films: Film[] = [
             {
               name: 'Медведь',
               thumbnail: 'https://pic.showjet.ru/pics/2828829f-7c9f-4f1f-9fd4-f1525519604a/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8949,15 +8949,15 @@ const films: Film[] = [
             {
               name: 'Легенда',
               thumbnail: 'https://pic.showjet.ru/pics/6939ca8f-e8ba-464c-9c9a-cd0c24257542/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8971,15 +8971,15 @@ const films: Film[] = [
             {
               name: 'Первый сын Техаса',
               thumbnail: 'https://pic.showjet.ru/pics/a00f09db-c2aa-4e01-a641-65480ad71301/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -8988,15 +8988,15 @@ const films: Film[] = [
             {
               name: 'Сливовое дерево',
               thumbnail: 'https://pic.showjet.ru/pics/b7aba7f2-6805-46b3-867c-c3ebc1fe6c7c/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9005,15 +9005,15 @@ const films: Film[] = [
             {
               name: 'Вторая империя',
               thumbnail: 'https://pic.showjet.ru/pics/5ff4588a-7cc2-4ddc-86da-e95799ac46a5/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9022,15 +9022,15 @@ const films: Film[] = [
             {
               name: 'Песня смерти',
               thumbnail: 'https://pic.showjet.ru/pics/8bf58de5-79e9-4262-a1aa-4a88b879706c/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9039,15 +9039,15 @@ const films: Film[] = [
             {
               name: 'Никаких пленных',
               thumbnail: 'https://pic.showjet.ru/pics/4f17fb20-62d6-4746-a205-4ab51ce98401/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9056,15 +9056,15 @@ const films: Film[] = [
             {
               name: 'Охотник на буйволов',
               thumbnail: 'https://pic.showjet.ru/pics/99af408e-6c9a-46f2-9809-01d5d6bd7786/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9073,15 +9073,15 @@ const films: Film[] = [
             {
               name: 'Брачные узы',
               thumbnail: 'https://pic.showjet.ru/pics/0e377e3f-380d-4c92-bcff-89fe04257c55/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9090,15 +9090,15 @@ const films: Film[] = [
             {
               name: 'Медовая охота',
               thumbnail: 'https://pic.showjet.ru/pics/cf2ec742-6a20-4212-8c64-dd40fa605610/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9107,15 +9107,15 @@ const films: Film[] = [
             {
               name: 'Пророчество',
               thumbnail: 'https://pic.showjet.ru/pics/497eedd0-2953-4600-b348-0fcb4049bdc2/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9124,15 +9124,15 @@ const films: Film[] = [
             {
               name: 'Скальпы',
               thumbnail: 'https://pic.showjet.ru/pics/6f2f017b-5fab-48fd-b93d-7a0fa7a8f171/10x7/400.jpg',
-              src: '3.mp4',
+              src: '../assets/3.mp4',
               subtitles: [
                 {
-                  src: '3-en.vtt',
+                  src: '../assets/3-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '3-ru.vtt',
+                  src: '../assets/3-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9155,20 +9155,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/121a0a7b-a56b-4ed5-aa7c-25a4c26f62a3/10x5/550.jpg',
-        src: '4.mp4',
+        src: '../assets/4.mp4',
         subtitles: [
           {
-            src: '4-en.vtt',
+            src: '../assets/4-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '4-ru.vtt',
+            src: '../assets/4-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/278d3a15-9dd9-4fa2-a499-c9cc25796322/10x7/1000.jpg',
@@ -9226,15 +9226,15 @@ const films: Film[] = [
             {
               name: 'Индиец в английском костюме',
               thumbnail: 'https://pic.showjet.ru/pics/bc109e10-ea6f-40ab-b1b7-047fba82d2ac/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9243,15 +9243,15 @@ const films: Film[] = [
             {
               name: 'Чёрная змея',
               thumbnail: 'https://pic.showjet.ru/pics/b50f9d21-a89f-46fc-b555-a6f991c41d40/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9260,15 +9260,15 @@ const films: Film[] = [
             {
               name: 'Белые боги',
               thumbnail: 'https://pic.showjet.ru/pics/6393e2c2-a0f1-4176-a2be-744b611a791f/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9277,15 +9277,15 @@ const films: Film[] = [
             {
               name: 'Пустое кресло',
               thumbnail: 'https://pic.showjet.ru/pics/b9193410-fe21-45b7-ab4c-388cb901aaa0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9294,15 +9294,15 @@ const films: Film[] = [
             {
               name: 'Игра в прятки',
               thumbnail: 'https://pic.showjet.ru/pics/917274f0-e40e-4185-a364-b4b7ce0dceea/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9311,15 +9311,15 @@ const films: Film[] = [
             {
               name: 'Подарок для короля',
               thumbnail: 'https://pic.showjet.ru/pics/43356090-ccce-4d1b-8b70-ec92dd68eff2/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9328,15 +9328,15 @@ const films: Film[] = [
             {
               name: 'Предложение',
               thumbnail: 'https://pic.showjet.ru/pics/0596b831-2c25-4776-9eca-05bb8c7ac74e/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9345,15 +9345,15 @@ const films: Film[] = [
             {
               name: 'День рождения',
               thumbnail: 'https://pic.showjet.ru/pics/6dd94ed7-bef4-46b3-8fa5-9bc8672ffb58/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9362,15 +9362,15 @@ const films: Film[] = [
             {
               name: 'Победитель забирает всё',
               thumbnail: 'https://pic.showjet.ru/pics/5bed2232-bfc6-46de-9961-591741cbf549/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9379,15 +9379,15 @@ const films: Film[] = [
             {
               name: 'Отъезд из дома',
               thumbnail: 'https://pic.showjet.ru/pics/59687dc9-9431-4d07-8d68-56fcff9e80a7/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9401,15 +9401,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/285a7f76-5d82-48f4-bc87-78670f464015/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9418,15 +9418,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/e021d111-96ee-4bae-b651-d4c9b41b555a/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9435,15 +9435,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/6623d27d-8d09-4858-aac5-5b20a2067569/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9452,15 +9452,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/875d952a-e889-4cee-9491-23836ca85576/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9469,15 +9469,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/fe79ab1c-ff16-44ca-90f9-c52091558fd0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9486,15 +9486,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/4a9e003f-1f71-46f7-8158-b1acac914233/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9503,15 +9503,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 7',
               thumbnail: 'https://pic.showjet.ru/pics/ee9138a6-c10e-414c-9d63-6928b152a5e0/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9520,15 +9520,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 8',
               thumbnail: 'https://pic.showjet.ru/pics/2b8a943b-e609-410d-b931-f2e49779cca8/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9537,15 +9537,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 9',
               thumbnail: 'https://pic.showjet.ru/pics/a8e808c2-2fc9-4039-ae5e-de1b833b2514/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9554,15 +9554,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 10',
               thumbnail: 'https://pic.showjet.ru/pics/02b76b56-d3ce-4378-b681-ef15cb2b24db/10x7/400.jpg',
-              src: '4.mp4',
+              src: '../assets/4.mp4',
               subtitles: [
                 {
-                  src: '4-en.vtt',
+                  src: '../assets/4-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '4-ru.vtt',
+                  src: '../assets/4-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9585,20 +9585,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/adb38dc6-441c-442b-af92-33456eb57f7f/10x5/550.jpg',
-        src: '5.mp4',
+        src: '../assets/5.mp4',
         subtitles: [
           {
-            src: '5-en.vtt',
+            src: '../assets/5-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '5-ru.vtt',
+            src: '../assets/5-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/e0ae03d8-d9df-40ff-a36a-9d62bf590c51/10x7/1000.jpg',
@@ -9647,15 +9647,15 @@ const films: Film[] = [
             {
               name: 'Друид',
               thumbnail: 'https://pic.showjet.ru/pics/360459d2-7868-4ce4-a4f8-05c46e9627e6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9664,15 +9664,15 @@ const films: Film[] = [
             {
               name: 'Дух',
               thumbnail: 'https://pic.showjet.ru/pics/3b7cb649-939d-49eb-afcb-3a2a8c72a843/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9681,15 +9681,15 @@ const films: Film[] = [
             {
               name: 'Грэймарк',
               thumbnail: 'https://pic.showjet.ru/pics/2a53e92d-acf6-41dc-856f-de9a7d32d6d6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9698,15 +9698,15 @@ const films: Film[] = [
             {
               name: 'Обитатель',
               thumbnail: 'https://pic.showjet.ru/pics/4641e4cc-1131-476f-93cb-e830400f6079/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9715,15 +9715,15 @@ const films: Film[] = [
             {
               name: 'Паранор',
               thumbnail: 'https://pic.showjet.ru/pics/45e54d0d-7b9f-4d60-9ae4-caacf1de4171/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9732,15 +9732,15 @@ const films: Film[] = [
             {
               name: 'Алый',
               thumbnail: 'https://pic.showjet.ru/pics/0d5e8203-870d-45e9-baf3-375e13341740/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9749,15 +9749,15 @@ const films: Film[] = [
             {
               name: 'Чародей',
               thumbnail: 'https://pic.showjet.ru/pics/3c6474a9-cb81-4ac4-a325-4f5683534922/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9766,15 +9766,15 @@ const films: Film[] = [
             {
               name: 'Эмберли',
               thumbnail: 'https://pic.showjet.ru/pics/b733396c-16ab-4468-b8d7-0085783bb0a6/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9783,15 +9783,15 @@ const films: Film[] = [
             {
               name: 'Уайлдерун',
               thumbnail: 'https://pic.showjet.ru/pics/58f03822-be47-4493-8fb1-8eb6b14d9bb8/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9800,15 +9800,15 @@ const films: Film[] = [
             {
               name: 'Кровь',
               thumbnail: 'https://pic.showjet.ru/pics/168aeb9b-247c-4141-bdef-ac1feb7d4cb1/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9822,15 +9822,15 @@ const films: Film[] = [
             {
               name: 'Избранная: Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/25e8bd73-c497-41cb-9c18-3562c52b1552/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9839,15 +9839,15 @@ const films: Film[] = [
             {
               name: 'Избранная: Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/c3077ef4-48a5-4293-8f92-d07d2402be3d/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9856,15 +9856,15 @@ const films: Film[] = [
             {
               name: 'Фурия',
               thumbnail: 'https://pic.showjet.ru/pics/fc4e239a-0969-44c2-abe0-55d480d16356/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9873,15 +9873,15 @@ const films: Film[] = [
             {
               name: 'Подмена',
               thumbnail: 'https://pic.showjet.ru/pics/f8a9e6ba-eb86-4ec5-ac74-cc73d02c43f7/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9890,15 +9890,15 @@ const films: Film[] = [
             {
               name: 'Жнец',
               thumbnail: 'https://pic.showjet.ru/pics/0d47802d-da71-44fd-8e03-6da42a744b3c/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9907,15 +9907,15 @@ const films: Film[] = [
             {
               name: 'Пайкон',
               thumbnail: 'https://pic.showjet.ru/pics/63ed40ac-b2b6-4eb1-af1b-3a05c8ca22d9/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9924,15 +9924,15 @@ const films: Film[] = [
             {
               name: 'Разлом',
               thumbnail: 'https://pic.showjet.ru/pics/f0f8e6e1-8acb-4181-b1df-11b57b37dfca/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9941,15 +9941,15 @@ const films: Film[] = [
             {
               name: 'Утопия',
               thumbnail: 'https://pic.showjet.ru/pics/c5534b8b-fc9f-4895-96c7-a998e524e492/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9958,15 +9958,15 @@ const films: Film[] = [
             {
               name: 'Убежище',
               thumbnail: 'https://pic.showjet.ru/pics/e8c5a84f-4b56-4a41-a7cd-19c973a0d83c/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -9975,15 +9975,15 @@ const films: Film[] = [
             {
               name: 'Элькрис',
               thumbnail: 'https://pic.showjet.ru/pics/4b843bd5-d6e8-44c4-bc6e-d6e3c3cdc4b2/10x7/400.jpg',
-              src: '5.mp4',
+              src: '../assets/5.mp4',
               subtitles: [
                 {
-                  src: '5-en.vtt',
+                  src: '../assets/5-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '5-ru.vtt',
+                  src: '../assets/5-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10006,20 +10006,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/fab57c5e-75a3-4310-a431-f7b576b5cd26/10x5/550.jpg',
-        src: '6.mp4',
+        src: '../assets/6.mp4',
         subtitles: [
           {
-            src: '6-sp.vtt',
+            src: '../assets/6-sp.vtt',
             srcLang: 'sp',
             label: 'Spanish',
           },
           {
-            src: '6-ru.vtt',
+            src: '../assets/6-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/c308d35e-35a1-4408-83b3-69789451002e/10x7/1000.jpg',
@@ -10069,15 +10069,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка комнаты 308',
               thumbnail: 'https://pic.showjet.ru/pics/93d09f2d-7696-499a-b199-953ecf4894f9/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10086,15 +10086,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна капсулы времени. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/f1b9d562-a17e-4a2a-845d-dd27c881c0a6/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10103,15 +10103,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна капсулы времени. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/29dfe795-588d-4968-9b3e-39047d02d821/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10120,15 +10120,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна гостя',
               thumbnail: 'https://pic.showjet.ru/pics/787f7dd5-8730-4e0d-9e75-cd3c5dfd7529/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10137,15 +10137,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна одной женщины',
               thumbnail: 'https://pic.showjet.ru/pics/078a8ccd-2dd5-4c3d-acc6-89724aa8d6f2/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10154,15 +10154,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна невидимого убийцы',
               thumbnail: 'https://pic.showjet.ru/pics/a29bb785-a12c-4ef6-ab1f-79f839784e05/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10171,15 +10171,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна преступления века',
               thumbnail: 'https://pic.showjet.ru/pics/b9cc4b88-996d-4029-a448-7bab02beea11/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10188,15 +10188,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна призрака',
               thumbnail: 'https://pic.showjet.ru/pics/ba4671c0-71ed-441c-8932-0aeb5e809732/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10205,15 +10205,15 @@ const films: Film[] = [
             {
               name: 'Лаура и шпион, который много болтал',
               thumbnail: 'https://pic.showjet.ru/pics/f2c1a40c-0227-450e-9fb6-f318cb63627e/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10222,15 +10222,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна пойманных мышей',
               thumbnail: 'https://pic.showjet.ru/pics/ac2c6427-5383-40c9-b9bc-804a8e0c5a78/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10239,15 +10239,15 @@ const films: Film[] = [
             {
               name: 'Лаура и тайна ликов истины',
               thumbnail: 'https://pic.showjet.ru/pics/8baefd1f-51c0-4adb-ab58-88ae3556f9e5/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10256,15 +10256,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/14c862ac-2ca3-4832-ad90-cde6baa21627/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10273,15 +10273,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/937aef3f-43c4-4b3f-ac27-ccc7d613b174/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10290,15 +10290,15 @@ const films: Film[] = [
             {
               name: 'Лаура и загадка числа 17. Часть 3',
               thumbnail: 'https://pic.showjet.ru/pics/937aef3f-43c4-4b3f-ac27-ccc7d613b174/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10312,15 +10312,15 @@ const films: Film[] = [
             {
               name: 'Тайна молчуна',
               thumbnail: 'https://pic.showjet.ru/pics/0f83463c-d300-4588-9321-b93b3bba96c1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10329,15 +10329,15 @@ const films: Film[] = [
             {
               name: 'Тайна клуба',
               thumbnail: 'https://pic.showjet.ru/pics/438c316f-df2c-42d3-8c18-7d709b90b22a/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10346,15 +10346,15 @@ const films: Film[] = [
             {
               name: 'Тайна человека, которого не было',
               thumbnail: 'https://pic.showjet.ru/pics/46a728a5-0e7a-4308-b2ca-22e9c7139e38/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10363,15 +10363,15 @@ const films: Film[] = [
             {
               name: 'Тайна недовольного пациента',
               thumbnail: 'https://pic.showjet.ru/pics/438a6834-2657-4fbc-be57-0f3c6003a25c/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10380,15 +10380,15 @@ const films: Film[] = [
             {
               name: 'Тайна человека, который не хотел умирать',
               thumbnail: 'https://pic.showjet.ru/pics/ef5143b8-7223-45fe-b46e-0273a266f3ea/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10397,15 +10397,15 @@ const films: Film[] = [
             {
               name: 'Тайна восьми мужчин',
               thumbnail: 'https://pic.showjet.ru/pics/16111a03-134f-4c73-ba79-d697cf7e34be/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10414,15 +10414,15 @@ const films: Film[] = [
             {
               name: 'Тайна кричащего свидетеля',
               thumbnail: 'https://pic.showjet.ru/pics/9ec1cfee-6d95-4999-84e1-1269f534ea10/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10431,15 +10431,15 @@ const films: Film[] = [
             {
               name: 'Тайна необычного трюка',
               thumbnail: 'https://pic.showjet.ru/pics/6995ac7b-5fbf-4bd5-86a2-c4172d6b04a1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10448,15 +10448,15 @@ const films: Film[] = [
             {
               name: 'Тайна преступного аббатства',
               thumbnail: 'https://pic.showjet.ru/pics/17a59cdd-8507-4f9f-923f-36a6e5bbec33/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10465,15 +10465,15 @@ const films: Film[] = [
             {
               name: 'Тайна красной леди',
               thumbnail: 'https://pic.showjet.ru/pics/f0ecb1cf-be3b-4dc2-bdb5-eb4d7506cc8d/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10482,15 +10482,15 @@ const films: Film[] = [
             {
               name: 'Тайна десяти незнакомцев. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/5affa3d5-68c6-4a48-9fb8-919f609ca7cd/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10499,15 +10499,15 @@ const films: Film[] = [
             {
               name: 'Тайна десяти незнакомцев. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/182848c5-62bd-47c1-aaf1-10e8d28444a9/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10521,15 +10521,15 @@ const films: Film[] = [
             {
               name: 'Тайна запечатанной комнаты. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/cff1a7d9-2c46-49c9-97dd-f215a82b0df1/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10538,15 +10538,15 @@ const films: Film[] = [
             {
               name: 'Тайна запечатанной комнаты. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/24e77673-eb0a-40bf-a7a1-d3b670c1bd6d/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10555,15 +10555,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального соседа. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/2842bfef-d0b7-4772-997c-4e3a3d00b714/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10572,15 +10572,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального соседа. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/0db050a1-ee55-4f55-992b-bd6f9b1252f2/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10589,15 +10589,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального алиби. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/bc7e30c8-d704-437d-8fcf-3a981581dfaa/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10606,15 +10606,15 @@ const films: Film[] = [
             {
               name: 'Тайна идеального алиби. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/503d32b5-7769-425a-95fc-9461a3614272/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10623,15 +10623,15 @@ const films: Film[] = [
             {
               name: 'Тайна места преступления',
               thumbnail: 'https://pic.showjet.ru/pics/8da94e6e-01a7-4b1b-8ed5-a887fd0faf35/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10640,15 +10640,15 @@ const films: Film[] = [
             {
               name: 'Тайна синего попугая. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/e24cc7b0-325e-489a-8779-4336c1ab9332/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10657,15 +10657,15 @@ const films: Film[] = [
             {
               name: 'Тайна синего попугая. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/f7d93d95-17a2-47d0-bb9c-ff2ef9e6b7f3/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10674,15 +10674,15 @@ const films: Film[] = [
             {
               name: 'Тайна найденного трупа',
               thumbnail: 'https://pic.showjet.ru/pics/7a97aa9d-ceac-4e29-915e-36e0455fca50/10x7/400.jpg',
-              src: '6.mp4',
+              src: '../assets/6.mp4',
               subtitles: [
                 {
-                  src: '6-sp.vtt',
+                  src: '../assets/6-sp.vtt',
                   srcLang: 'sp',
                   label: 'Spanish',
                 },
                 {
-                  src: '6-ru.vtt',
+                  src: '../assets/6-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10705,20 +10705,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/45586294-928e-4ebf-94aa-466caa626060/10x5/550.jpg',
-        src: '7.mp4',
+        src: '../assets/7.mp4',
         subtitles: [
           {
-            src: '7-en.vtt',
+            src: '../assets/7-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '7-ru.vtt',
+            src: '../assets/7-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/e39ee4f3-f56c-44f3-bc88-10176eeadfe2/10x7/1000.jpg',
@@ -10772,15 +10772,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/b3ce4602-b324-4912-8b3d-c4c6f4c2ae49/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10789,15 +10789,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/371788d1-52ec-42eb-a4f4-b55d3ab6f618/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10806,15 +10806,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/701749f1-f300-4bca-a2ed-d5e81433cceb/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10823,15 +10823,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/ff00806c-75a5-4b56-b73f-1f5df5f324f0/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10840,15 +10840,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/ab8186e0-4e7d-4b82-9022-f284ecce6251/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10857,15 +10857,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/0e697263-140e-4967-9192-0cbd871589dd/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10879,15 +10879,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/fbe6ac2b-3bbf-4ae6-8bd9-6b0c9ebd5446/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10896,15 +10896,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/d9bda9bd-a8ee-4217-adc7-836b6259c879/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10913,15 +10913,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/1fe76f9b-b64a-4226-9670-6f0bc5ca904b/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10930,15 +10930,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/9a6aca44-df21-4eab-b5cf-df9003ebd176/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10947,15 +10947,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/13c7773f-1c4d-4222-a2c6-52a93027008b/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10964,15 +10964,15 @@ const films: Film[] = [
             {
               name: '',
               thumbnail: 'https://pic.showjet.ru/pics/18715ea9-7241-4348-b10e-8be6309ed0d5/10x7/400.jpg',
-              src: '7.mp4',
+              src: '../assets/7.mp4',
               subtitles: [
                 {
-                  src: '7-en.vtt',
+                  src: '../assets/7-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '7-ru.vtt',
+                  src: '../assets/7-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -10995,20 +10995,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/06f33b2d-e146-49d3-8ada-e082dcd12a7c/10x5/550.jpg',
-        src: '8.mp4',
+        src: '../assets/8.mp4',
         subtitles: [
           {
-            src: '8-en.vtt',
+            src: '../assets/8-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '8-ru.vtt',
+            src: '../assets/8-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/1067a9d4-5274-4e46-a025-72ecc4c11efa/10x7/1000.jpg',
@@ -11054,15 +11054,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/313b8ff2-2d38-44db-82f8-e56b4ed24bb8/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11071,15 +11071,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/952e497f-cbec-4485-a73e-767162eaa4c4/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11088,15 +11088,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/37871517-0a5c-4f51-957d-6f39c448be0e/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11105,15 +11105,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/abb2ba21-0630-4c85-aa5d-7fb2d1294caf/10x7/400.jpg',
-              src: '8.mp4',
+              src: '../assets/8.mp4',
               subtitles: [
                 {
-                  src: '8-en.vtt',
+                  src: '../assets/8-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '8-ru.vtt',
+                  src: '../assets/8-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11136,20 +11136,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/d388f434-a6dd-4c02-a95f-e41f3649fb27/10x5/550.jpg',
-        src: '9.mp4',
+        src: '../assets/9.mp4',
         subtitles: [
           {
-            src: '9-en.vtt',
+            src: '../assets/9-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '9-ru.vtt',
+            src: '../assets/9-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/0327a903-cb0f-4a94-a83d-69e8958107e7/10x7/1000.jpg',
@@ -11193,15 +11193,15 @@ const films: Film[] = [
             {
               name: 'Безнадежные долги. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/b671462c-3943-435a-8e90-ae79a2ed8112/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11210,15 +11210,15 @@ const films: Film[] = [
             {
               name: 'Безнадежные долги. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/95d196c4-49ac-4968-b2ab-8f81f10f7614/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11227,15 +11227,15 @@ const films: Film[] = [
             {
               name: 'Черный прилив. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/1ba14a1b-f3cb-47b8-bdb8-34b19fd9c7c9/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11244,15 +11244,15 @@ const films: Film[] = [
             {
               name: 'Черный прилив. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/d788e49f-a8c6-45c6-87e2-4464610de758/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11261,15 +11261,15 @@ const films: Film[] = [
             {
               name: 'Тупик. Часть 1',
               thumbnail: 'https://pic.showjet.ru/pics/3a4bd9ce-bb7a-4b89-a150-0fcf002e9821/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11278,15 +11278,15 @@ const films: Film[] = [
             {
               name: 'Тупик. Часть 2',
               thumbnail: 'https://pic.showjet.ru/pics/d4dd73f4-345b-4496-ae0b-6b483084bde1/10x7/400.jpg',
-              src: '9.mp4',
+              src: '../assets/9.mp4',
               subtitles: [
                 {
-                  src: '9-en.vtt',
+                  src: '../assets/9-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '9-ru.vtt',
+                  src: '../assets/9-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11309,20 +11309,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://pic.showjet.ru/pics/dd1bf4c8-251e-4821-86f1-2c6a974f2bc6/10x5/550.jpg',
-        src: '10.mp4',
+        src: '../assets/10.mp4',
         subtitles: [
           {
-            src: '10-en.vtt',
+            src: '../assets/10-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '10-ru.vtt',
+            src: '../assets/10-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://pic.showjet.ru/pics/0a1f6aba-b650-422b-9838-d7ed6952b8c9/10x7/1000.jpg',
@@ -11384,15 +11384,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/8a29746a-e279-4e25-bf67-8f50a8dcb501/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11401,15 +11401,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/33d8c25e-a8b3-42b2-af97-d5a8f0536f92/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11418,15 +11418,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/fa180cdf-f44f-4d21-99cd-16d47cb2002e/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11435,15 +11435,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/eb85daa7-22cc-4071-af27-741e2dfaa57c/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11452,15 +11452,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/9fa8aa26-968d-4ecd-a905-0120fc8ff312/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11469,15 +11469,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/1673b773-883b-4bc7-80e2-1897e0ae9a56/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11491,15 +11491,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 1',
               thumbnail: 'https://pic.showjet.ru/pics/e8fde516-06b2-4b0a-98ad-538dc6d7cb96/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11508,15 +11508,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 2',
               thumbnail: 'https://pic.showjet.ru/pics/b958a6c3-6560-4955-a035-797838920393/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11525,15 +11525,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 3',
               thumbnail: 'https://pic.showjet.ru/pics/8c99629f-f98e-4707-9351-6af9af57431e/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11542,15 +11542,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 4',
               thumbnail: 'https://pic.showjet.ru/pics/c4d02fe7-2b88-4691-9b79-8d642eb3d741/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11559,15 +11559,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 5',
               thumbnail: 'https://pic.showjet.ru/pics/eb46a9b4-94a3-40af-bce7-08d1759809e8/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11576,15 +11576,15 @@ const films: Film[] = [
             {
               name: 'Эпизод 6',
               thumbnail: 'https://pic.showjet.ru/pics/3fcbee17-0f28-4e56-af26-afc69f5de79a/10x7/400.jpg',
-              src: '10.mp4',
+              src: '../assets/10.mp4',
               subtitles: [
                 {
-                  src: '10-en.vtt',
+                  src: '../assets/10-en.vtt',
                   srcLang: 'en',
                   label: 'English',
                 },
                 {
-                  src: '10-ru.vtt',
+                  src: '../assets/10-ru.vtt',
                   srcLang: 'ru',
                   label: 'Russian',
                 },
@@ -11607,20 +11607,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzcwY2E2YTItMjFkZS00OTdjLTkyZTQtOTMxYzc3MGYyNmFkXkEyXkFqcGdeQXN3aWZ0dw@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '11.mp4',
+        src: '../assets/11.mp4',
         subtitles: [
           {
-            src: '11-en.vtt',
+            src: '../assets/11-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '11-ru.vtt',
+            src: '../assets/11-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BODIwMTc0NDA4Ml5BMl5BanBnXkFtZTgwNDE3OTEwMjE@._V1_.jpg',
@@ -11673,15 +11673,15 @@ const films: Film[] = [
     film: {
       name: 'Мой сосед Тоторо',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzcwY2E2YTItMjFkZS00OTdjLTkyZTQtOTMxYzc3MGYyNmFkXkEyXkFqcGdeQXN3aWZ0dw@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '11.mp4',
+      src: '../assets/11.mp4',
       subtitles: [
         {
-          src: '11-en.vtt',
+          src: '../assets/11-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '11-ru.vtt',
+          src: '../assets/11-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -11700,20 +11700,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/8884a77f204ed671f6612c7920671078/100x64_3',
-        src: '12.mp4',
+        src: '../assets/12.mp4',
         subtitles: [
           {
-            src: '12-en.vtt',
+            src: '../assets/12-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '12-ru.vtt',
+            src: '../assets/12-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTc5MjM4Njg3Nl5BMl5BanBnXkFtZTgwNTk1NDU2NjM@._V1_.jpg',
@@ -11766,15 +11766,15 @@ const films: Film[] = [
     film: {
       name: 'Сияние',
       thumbnail: 'https://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/8884a77f204ed671f6612c7920671078/100x64_3',
-      src: '12.mp4',
+      src: '../assets/12.mp4',
       subtitles: [
         {
-          src: '12-en.vtt',
+          src: '../assets/12-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '12-ru.vtt',
+          src: '../assets/12-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -11793,20 +11793,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzMzMDAxZDAtYTBkNy00NjMwLWIyYzctODA1YzE0MzUwMTI4XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '13.mp4',
+        src: '../assets/13.mp4',
         subtitles: [
           {
-            src: '13-en.vtt',
+            src: '../assets/13-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '13-ru.vtt',
+            src: '../assets/13-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BN2ZmNWUzNTQtMDY2OS00YjBmLWI5NTQtMzg5MDk0MzM5OTc2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
@@ -11852,15 +11852,15 @@ const films: Film[] = [
     film: {
       name: 'Хороший, плохой, злой',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYzMzMDAxZDAtYTBkNy00NjMwLWIyYzctODA1YzE0MzUwMTI4XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '13.mp4',
+      src: '../assets/13.mp4',
       subtitles: [
         {
-          src: '13-en.vtt',
+          src: '../assets/13-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '13-ru.vtt',
+          src: '../assets/13-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -11879,20 +11879,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjE3MjY3MTkzNV5BMl5BanBnXkFtZTgwNTE0NjU3MzI@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-        src: '14.mp4',
+        src: '../assets/14.mp4',
         subtitles: [
           {
-            src: '14-en.vtt',
+            src: '../assets/14-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '14-ru.vtt',
+            src: '../assets/14-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTg3NDIwNzU3MF5BMl5BanBnXkFtZTgwMDQ5MjY2MzI@._V1_.jpg',
@@ -11950,15 +11950,15 @@ const films: Film[] = [
     film: {
       name: 'Бегущий по лезвию 2049',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjE3MjY3MTkzNV5BMl5BanBnXkFtZTgwNTE0NjU3MzI@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-      src: '14.mp4',
+      src: '../assets/14.mp4',
       subtitles: [
         {
-          src: '14-en.vtt',
+          src: '../assets/14-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '14-ru.vtt',
+          src: '../assets/14-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -11977,20 +11977,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjM2OTU4MDA1OV5BMl5BanBnXkFtZTgwNzg2MTAyMzE@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '15.mp4',
+        src: '../assets/15.mp4',
         subtitles: [
           {
-            src: '15-en.vtt',
+            src: '../assets/15-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '15-ru.vtt',
+            src: '../assets/15-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTkwODI5ODcxMl5BMl5BanBnXkFtZTcwNjIyNDAxNw@@._V1_.jpg',
@@ -12049,15 +12049,15 @@ const films: Film[] = [
     film: {
       name: 'Девушка с татуировкой дракона',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMjM2OTU4MDA1OV5BMl5BanBnXkFtZTgwNzg2MTAyMzE@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '15.mp4',
+      src: '../assets/15.mp4',
       subtitles: [
         {
-          src: '15-en.vtt',
+          src: '../assets/15-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '15-ru.vtt',
+          src: '../assets/15-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -12076,20 +12076,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTgxODI4OTU3N15BMl5BanBnXkFtZTgwODgzNDMzMTE@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '16.mp4',
+        src: '../assets/16.mp4',
         subtitles: [
           {
-            src: '16-en.vtt',
+            src: '../assets/16-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '16-ru.vtt',
+            src: '../assets/16-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMjM1MjYzODE4N15BMl5BanBnXkFtZTgwNzU4ODY2OTE@._V1_.jpg',
@@ -12149,15 +12149,15 @@ const films: Film[] = [
     film: {
       name: 'Отель «Гранд Будапешт»',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTgxODI4OTU3N15BMl5BanBnXkFtZTgwODgzNDMzMTE@._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '16.mp4',
+      src: '../assets/16.mp4',
       subtitles: [
         {
-          src: '16-en.vtt',
+          src: '../assets/16-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '16-ru.vtt',
+          src: '../assets/16-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -12176,20 +12176,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BOTEwYWFjYmItZWJmNi00MGExLWI1MjktYzRiYjJkNzhiMWIxXkEyXkFqcGdeQXNuZXNodQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '17.mp4',
+        src: '../assets/17.mp4',
         subtitles: [
           {
-            src: '17-en.vtt',
+            src: '../assets/17-en.vtt',
             srcLang: 'en',
             label: 'English',
           },
           {
-            src: '17-ru.vtt',
+            src: '../assets/17-ru.vtt',
             srcLang: 'ru',
             label: 'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BOGI4ZjA5YjItNzM3My00Mjk4LWI4NzEtOGFhZWU5Y2Y1YmExXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg',
@@ -12248,15 +12248,15 @@ const films: Film[] = [
     film: {
       name: 'Дюна',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BOTEwYWFjYmItZWJmNi00MGExLWI1MjktYzRiYjJkNzhiMWIxXkEyXkFqcGdeQXNuZXNodQ@@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '17.mp4',
+      src: '../assets/17.mp4',
       subtitles: [
         {
-          src: '17-en.vtt',
+          src: '../assets/17-en.vtt',
           srcLang: 'en',
           label: 'English',
         },
         {
-          src: '17-ru.vtt',
+          src: '../assets/17-ru.vtt',
           srcLang: 'ru',
           label: 'Russian',
         },
@@ -12275,20 +12275,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BZGI3ODkzOTUtNzJjNS00ODhkLThkMzMtZjM4NjViZTYxNGY5XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-        src: '18.mp4',
+        src: '../assets/18.mp4',
         subtitles: [
           {
-            src: '18-en.vtt',
+            src: '../assets/18-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '18-ru.vtt',
+            src: '../assets/18-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BYzQ0YmIzYzYtOTk2NC00OWI3LWI2YjAtYzhlMDUwNWQ2NmRlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg',
@@ -12347,19 +12347,19 @@ const films: Film[] = [
     film: {
       name: 'Достать ножи',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BZGI3ODkzOTUtNzJjNS00ODhkLThkMzMtZjM4NjViZTYxNGY5XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg',
-      src: '18.mp4',
+      src: '../assets/18.mp4',
       subtitles: [
         {
-          src: '18-en.vtt',
+          src: '../assets/18-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '18-ru.vtt',
+          src: '../assets/18-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -12374,20 +12374,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BNjM5OTQzMTg4N15BMl5BanBnXkFtZTgwOTgyMjM0NTE@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-        src: '19.mp4',
+        src: '../assets/19.mp4',
         subtitles: [
           {
-            src: '19-en.vtt',
+            src: '../assets/19-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '19-ru.vtt',
+            src: '../assets/19-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMTc0NDQ4MjkyOF5BMl5BanBnXkFtZTgwNDE2NzUzOTE@._V1_.jpg',
@@ -12448,19 +12448,19 @@ const films: Film[] = [
     film: {
       name: 'Интерстеллар',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BNjM5OTQzMTg4N15BMl5BanBnXkFtZTgwOTgyMjM0NTE@._V1_QL75_UX500_CR0,46,500,281_.jpg',
-      src: '19.mp4',
+      src: '../assets/19.mp4',
       subtitles: [
         {
-          src: '19-en.vtt',
+          src: '../assets/19-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '19-ru.vtt',
+          src: '../assets/19-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -12475,20 +12475,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BYjZkYzYwNmQtNjk3ZC00Y2M2LThhY2EtODIzOThiNDJmMTk2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
-        src: '20.mp4',
+        src: '../assets/20.mp4',
         subtitles: [
           {
-            src: '20-en.vtt',
+            src: '../assets/20-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '20-ru.vtt',
+            src: '../assets/20-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BNTkxMTQ1Njc1Ml5BMl5BanBnXkFtZTgwNDA5OTc5NDM@._V1_.jpg',
@@ -12543,19 +12543,19 @@ const films: Film[] = [
     film: {
       name: 'Остров собак',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BYjZkYzYwNmQtNjk3ZC00Y2M2LThhY2EtODIzOThiNDJmMTk2XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR86,0,500,281_.jpg',
-      src: '20.mp4',
+      src: '../assets/20.mp4',
       subtitles: [
         {
-          src: '20-en.vtt',
+          src: '../assets/20-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '20-ru.vtt',
+          src: '../assets/20-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
   {
@@ -12570,20 +12570,20 @@ const films: Film[] = [
     trailer: [
       {
         thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTAxNDk2ODYzMzleQTJeQWpwZ15BbWU4MDY5NDExNzIx._V1_QL75_UX500_CR0,47,500,281_.jpg',
-        src: '21.mp4',
+        src: '../assets/21.mp4',
         subtitles: [
           {
-            src: '21-en.vtt',
+            src: '../assets/21-en.vtt',
             srcLang: 'en',
             label:'English',
           },
           {
-            src: '21-ru.vtt',
+            src: '../assets/21-ru.vtt',
             srcLang: 'ru',
             label:'Russian',
           },
-        ]
-      }
+        ],
+      },
     ],
     thumbnails: [
       'https://m.media-amazon.com/images/M/MV5BMjA1OTUxNjU4M15BMl5BanBnXkFtZTgwNTY3MDk5MjE@._V1_.jpg',
@@ -12643,19 +12643,19 @@ const films: Film[] = [
     film: {
       name: 'Джон Уик',
       thumbnail: 'https://m.media-amazon.com/images/M/MV5BMTAxNDk2ODYzMzleQTJeQWpwZ15BbWU4MDY5NDExNzIx._V1_QL75_UX500_CR0,47,500,281_.jpg',
-      src: '21.mp4',
+      src: '../assets/21.mp4',
       subtitles: [
         {
-          src: '21-en.vtt',
+          src: '../assets/21-en.vtt',
           srcLang: 'en',
           label:'English',
         },
         {
-          src: '21-ru.vtt',
+          src: '../assets/21-ru.vtt',
           srcLang: 'ru',
           label:'Russian',
         },
-      ]
+      ],
     },
   },
 ];
