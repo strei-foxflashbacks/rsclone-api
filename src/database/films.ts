@@ -6430,7 +6430,7 @@ const films: Film[] = [
     ratings: [7.8, 7.7],
     age: '16+',
     originalName: 'Going Postal',
-    poster: 'https://i.imgur.com/u0QyCmo.jpg',
+    poster: 'https://pic.showjet.ru/pics/897a6236-0547-4c49-aba8-ffbf8b1ee09a/10x5/1250.jpg',
     summary: '1 сезон / фэнтези, приключения, 2010',
     trailer: [
       {
@@ -12631,7 +12631,7 @@ const films: Film[] = [
     ratings: [7.8, 7.7],
     age: '16+',
     originalName: 'Going Postal',
-    poster: 'https://i.imgur.com/u0QyCmo.jpg',
+    poster: 'https://pic.showjet.ru/pics/897a6236-0547-4c49-aba8-ffbf8b1ee09a/10x5/1250.jpg',
     summary: '1 сезон / фэнтези, приключения, 2010',
     trailer: [
       {
