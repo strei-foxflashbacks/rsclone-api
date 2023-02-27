@@ -19,9 +19,10 @@ userRouter
   .get(passport.authenticate('jwt', { session: false }), (req: UserRequest, res: Response) => {
     res.send(req.user);
   })
-  .patch(passport.authenticate('jwt', { session: false }), (req: UserRequest, res: Response) => {
+  .patch(passport.authenticate('jwt', { session: false }), async (req: UserRequest, res: Response) => {
     const userToUpdate = users.find(user => user === req.user);
     const index = users.indexOf(userToUpdate!);
+    req.body.password = await bcrypt.hash(req.body.password, 10);
     const updatedUser = Object.assign(userToUpdate!, req.body);
     users[index] = updatedUser;
     res.send(updatedUser);
@@ -78,6 +79,6 @@ userRouter
       }
     } catch {
       res.redirect('/users/register');
-    } 
+    }
   });
 export default userRouter;
