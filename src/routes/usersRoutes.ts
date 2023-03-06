@@ -22,7 +22,9 @@ userRouter
   .patch(passport.authenticate('jwt', { session: false }), async (req: UserRequest, res: Response) => {
     const userToUpdate = users.find(user => user === req.user);
     const index = users.indexOf(userToUpdate!);
-    req.body.password = await bcrypt.hash(req.body.password, 10);
+    if (req.body.password) {
+      req.body.password = await bcrypt.hash(req.body.password, 10);
+    }
     const updatedUser = Object.assign(userToUpdate!, req.body);
     users[index] = updatedUser;
     res.send(updatedUser);
